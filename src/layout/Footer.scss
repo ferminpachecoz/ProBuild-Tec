@@ -1,0 +1,49 @@
+.footer{
+  padding: 4em;
+  background-color: white;
+  color: rgb(206, 206, 206);
+  .texto{
+    padding: 0em 1em;
+  }
+  .menu{
+    ul{
+      padding: 0px;
+      li{
+        margin-bottom: 0.8em;
+        color: var(--text);
+      }
+    }
+  }
+  .copyright{
+    padding-top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h4{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 1em;
+    color: var(--primary);
+  }
+  i{
+    font-size: 30px;
+    color: rgb(0, 209, 0);
+  }
+}
+@media (max-width: 480px){
+  .footer{
+    padding: 2em 1em 1em 1em;
+    font-size: 14px;
+    .texto{
+      font-size: 14px;
+    }
+    .contacto{
+      padding: 0px;
+    }
+    .icon-a{
+      display: block;
+      margin-left: 2em;
+    }
+  }
+}

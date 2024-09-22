@@ -1,0 +1,82 @@
+.paquete{
+  padding: 1em;
+  transition: 0.3s;
+  border-radius: 10px;
+  background-color: white;
+  .img-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+    height: 200px;
+    img{
+      width: 150px;
+    }
+  }
+  .title{
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--primary);
+    text-align: center;
+  }
+  .description{
+    font-size: 16px;
+    color: var(--text);
+    text-align: center;
+  }
+  .requerido{
+    padding-left: 2em;
+    margin-bottom: 1em;
+    span{
+      p{
+        font-size: 16px;
+        color: var(--primary);
+        margin: 0px;
+        margin-left: 8px;
+        font-weight: 400;
+      }
+      i{
+        color: var(--accent);
+      }
+    }
+  }
+  a{
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 10000px;
+    background-color: var(--accent);
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    padding: 16px 0px 16px 0px;
+    font-weight: 600;
+  }
+}
+.paquete:hover{
+  background-color: var(--accent);
+  background-image: url("https://hostiko.com/layout91/wp-content/uploads/2024/05/shared-img-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translateY(-30px) !important;
+  .title{
+    color: white;
+  }
+  .description{
+    color: white;
+  }
+  .requerido{
+    span{
+      p{
+        color: white;
+      }
+      i{
+        color: white;
+      }
+    }
+  }
+  a{
+    color: white;
+    background-color: var(--accent-secondary);
+  }
+}

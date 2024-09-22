@@ -1,0 +1,75 @@
+.todos-los-productos{
+  padding: 4em 0em;
+  h1{
+    text-align: center;
+    color: var(--blue);
+    margin-bottom: 1em;
+  }
+  .menu{
+    padding: 2em;
+    /* Estilo general del contenedor del input de búsqueda */
+    .search-container {
+      position: relative;
+      form{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+        input[type="text"]{
+          width: 100%;
+          padding: 12px 20px 12px 40px; /* Espacio suficiente para el ícono */
+          font-size: 16px;
+          border-radius: 50px;
+          border: 1px solid #ccc;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+          transition: all 0.3s ease;
+          outline: none;
+        }
+        input[type="text"]:focus {
+          border-color: #007bff; /* Cambia el color del borde al hacer foco */
+          box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2); /* Sombra más visible al hacer foco */
+        }
+        .search-icon {
+          position: absolute;
+          left: 15px; /* Posición del ícono dentro del input */
+          font-size: 18px;
+          color: #aaa; /* Color del ícono */
+          pointer-events: none; /* Evita que el ícono interfiera con el clic */
+          transition: color 0.3s ease;
+        }
+        input[type="text"]:focus + .search-icon {
+          color: #007bff; /* Cambia el color del ícono al hacer foco */
+        }
+      }
+      .results{
+        position: absolute;
+        padding-right: 1em;
+        top: 50px;
+        background-color: rgb(224, 224, 224);
+        border-radius: 10px;
+      }
+    }
+    p{
+      margin: 1em 0em;
+      font-weight: 600;
+    }
+    ul{
+      li{
+        margin: 1em 0em;
+        color: rgb(70, 70, 70);
+      }
+      li:hover{
+        color: var(--blue);
+        cursor: pointer;
+      }
+    }
+  }
+}
+@media (max-width: 480px) {
+  .todos-los-productos{
+    
+  }
+}
