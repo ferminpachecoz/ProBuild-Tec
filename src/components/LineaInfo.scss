@@ -1,0 +1,34 @@
+.linea-info{
+  padding: 5em 10em;
+  .background{
+    background-image: url("https://wpriverthemes.com/synck/wp-content/uploads/2024/01/hero-overview-about.jpg");
+    height: 55vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+  }
+  .wrapper{
+    padding: 3em;
+    p{
+      line-height: 25px;
+    }
+    .contenedor{
+      display: flex;
+      align-items: center;
+      i{
+        color: white;
+        background-color: var(--accent);
+        padding: 1px 4px 0px 3px;
+        border-radius: 100000px;
+        font-size: 12px;
+        margin-right: 10px;
+      }
+      p{
+        margin: 0px;
+        font-weight: 500;
+        color: var(--primary);
+      }
+    }
+  }
+}

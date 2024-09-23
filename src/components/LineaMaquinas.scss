@@ -1,0 +1,22 @@
+.linea-maquinas{
+  padding: 2em 7em;
+  .sec{
+    color: var(--accent);
+    font-weight: 500;
+  }
+  .title{
+    margin: 3em 0em;
+    h2{
+      font-size: 36px;
+      font-weight: 600;
+      color: var(--primary);
+      text-transform: capitalize;
+    }
+    p{
+      color: var(--text);
+    }
+  }
+  .maquinas{
+    padding: 3em 0em;
+  }
+}

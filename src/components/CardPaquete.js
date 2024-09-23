@@ -2,7 +2,7 @@ import React from 'react';
 import "./CardPaquete.scss";
 import { Link } from 'react-router-dom';
 
-export default function CardPaquete({image, title, description, production, operators, space}) {
+export default function CardPaquete({id, image, title, description, production, operators, space}) {
   return (
     <div className='paquete'>
       <div className='img-container'>
@@ -24,7 +24,7 @@ export default function CardPaquete({image, title, description, production, oper
           <p>{space} mts <strong>cuadrados</strong></p>
         </span>
       </div>
-      <Link to="/">Mas información</Link>
+      <Link to={`/linea/${id}`}>Mas información</Link>
     </div>
   )
 }

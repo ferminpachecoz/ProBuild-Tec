@@ -1,0 +1,23 @@
+.card-maquina{
+  box-shadow: 4px 3px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  border: 1px solid transparent;
+  transition: 0.3s;
+  .image{
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  p{
+    text-align: center;
+    margin: 2em 0em 0em 0em;
+    font-weight: 500;
+    padding-bottom: 1em;
+  }
+}
+.card-maquina:hover{
+  border: 1px solid var(--accent-secondary);
+}

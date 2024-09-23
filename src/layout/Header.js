@@ -14,7 +14,7 @@ export default function Header(){
     <div className="header d-flex">
       <div className="logo">
         <Link to="/">
-          <img src="logobg.png" alt="logo" />
+          <img src="/logobg.png" alt="logo" />
         </Link>
       </div>
       <div className="menu" style={{display: display?"block":"none"}}>
