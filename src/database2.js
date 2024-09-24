@@ -7,7 +7,8 @@ let db =[
     production: "50-60",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     machines: ["ACK 420 S", "CRM 201S", "KM 215", "SDT 275", "TK 503", "CA 601", "CK 412"],
-    additionals: ["VP 1000", "WB 4000", "SKN 301", "GPT 1000", "PT 1000"]
+    additionals: ["VP 1000", "WB 4000", "SKN 301", "GPT 1000", "PT 1000"],
+    image: "/images/small-factory.png"
   },
   {
     id: 2,
@@ -17,7 +18,8 @@ let db =[
     production: "80-90",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     machines: ["DC 421 PBS", "FR 225 S", "ST 264", "KM 215", "SDT 275", "SM 201", "DK 502", "CK 412"],
-    additionals: ["VP 1000", "HP 1000", "WB 4000", "NSM 352", "SKN 301", "GPT 1000", "PT 1000"]
+    additionals: ["VP 1000", "HP 1000", "WB 4000", "NSM 352", "SKN 301", "GPT 1000", "PT 1000"],
+    image: "/images/medium-small-factory.png"
   },
   {
     id: 3,
@@ -27,7 +29,8 @@ let db =[
     production: "170-200",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     machines: ["DC 421 PBS","FR 226 S","ST 264","KM 215","SDT 275","CCL 1660","NSM 352","CK 412"],
-    additionals: ["VP 1000","WB 4000","SKN 301","GPT 1000", "PT 1000"]
+    additionals: ["VP 1000","WB 4000","SKN 301","GPT 1000", "PT 1000"],
+    image: "/images/medium-factory.png"
   },
   {
     id: 4,
@@ -35,9 +38,10 @@ let db =[
     spaceRequired: 540,
     operatorsRequired: "8-10",
     production: "250-280",
-    description: "Lorem ipsum dolor sit amet",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     machines: ["PIM 6509","SM 1000","MEM 128","SDT 280","CCL 1660","NSM 353","SKN 301","CK 412"],
-    additionals: ["VP 1000","HP 1000","GPT 1000", "PT 1000","WB 4000"]
+    additionals: ["VP 1000","HP 1000","GPT 1000", "PT 1000","WB 4000"],
+    image: "/images/elite-factory.png"
   }
 ]
 export default db;

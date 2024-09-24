@@ -1,0 +1,29 @@
+.card-persona{
+  width: 100%;
+  border: 1px solid transparent;
+  background-color: #EBF7F6;
+  border-radius: 10px;
+  padding: 5em;
+  .img-container{
+    display: flex;
+    justify-content: center;
+    .round{
+      height: 200px;
+      width: 200px;
+      background-size: cover;
+      background-position: center;
+      border-radius: 1000000px;
+    }
+  }
+  .name{
+    margin-top: 2em;
+    font-size: 18px;
+    color: var(--primary);
+    font-weight: 600;
+  }
+  .role{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--accent);
+  }
+}

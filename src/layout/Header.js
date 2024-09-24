@@ -20,7 +20,7 @@ export default function Header(){
       <div className="menu" style={{display: display?"block":"none"}}>
         <ul className="row justify-content-center h-100 align-items-center">
           <li className="col">
-            <Link to="/">Armá tu taller</Link>
+            <Link to="/armar-tu-taller">Armá tu taller</Link>
           </li>
           <li className="col">
             <HashLink smooth to="/#catalogos">Catálogos</HashLink>

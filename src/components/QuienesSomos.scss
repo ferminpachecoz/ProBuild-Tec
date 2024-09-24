@@ -1,44 +1,9 @@
 .quienes-somos{
-  .contenedor{
-    padding: 0em 5em;
-    .img{
-      background-image: url("https://guia-ventana.com.ar/wp-content/uploads/2017/07/11-Yilmaz.jpg");
-      background-position: center;
-      background-size: cover;
-      padding: 0px;
-      border-radius: 10px;
-      .shadow{
-        border-radius: 10px;
-        background-color: rgba(0, 0, 0, 0.507);
-        width: 100%;
-        height: 100%;
-      }
-    }
-    .text{
-      padding: 2em 4em;
-      line-height: 30px;
-      p{
-        font-size: 16px;
-      }
-    }
-  }
   h2{
     text-transform: capitalize;
     text-align: center;
     margin-bottom: 1em;
     font-weight: 700;
     font-size: 36px;
-  }
-}
-@media (max-width: 480px) {
-  .quienes-somos{
-    .text{
-      padding: 0em 1em 1em 1em;
-      font-size: 14px;
-      line-height: 25px;
-      p{
-        margin: 0px;
-      }
-    }
   }
 }

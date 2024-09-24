@@ -1,0 +1,18 @@
+.nuestro-compromiso{
+  padding: 10em 12em;
+  h2{
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 0.7em;
+    font-weight: 700;
+    font-size: 36px;
+  }
+  p{
+    text-align: center;
+    font-size: 16px;
+  }
+  .no-wrap{
+    flex-wrap: nowrap !important;
+    margin-top: 2em;
+  }
+}

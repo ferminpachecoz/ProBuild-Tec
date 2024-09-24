@@ -11,6 +11,7 @@ export default function ProductInfo() {
   const { id } = useParams();
   let product = array.find(item=>item.id==id)
   console.log(product);
+  let a =[1,2,3]
 
   const settings = {
     dots: true,
@@ -36,12 +37,20 @@ export default function ProductInfo() {
       <div className='row'>
         <div className='col-12 col-lg-6'>
           <Slider {...settings}>
-            <div className="image-slide" style={{ backgroundImage: "url('https://via.placeholder.com/800x600?text=Image+1')" }}>
-            </div>
-            <div className="image-slide" style={{ backgroundImage: "url('https://via.placeholder.com/800x600?text=Image+2')" }}>
-            </div>
-            <div className="image-slide" style={{ backgroundImage: "url('https://via.placeholder.com/800x600?text=Image+3')" }}>
-            </div>
+            {product.image.length > 1 ?
+              product.image.map(item=>(
+                <div>
+                  <img className='img' src={`/products/${product.code}/${item}`} alt="" />
+                </div>
+              ))
+              :
+              a.map(item=>(
+                <div key={item}>
+                  <img className='img' src={`/products/${product.code}/${product.image[0]}`} alt="" />
+                </div>
+              ))
+              
+            }
           </Slider>
         </div>
         <div className='col-12 col-lg-6 informacion'>

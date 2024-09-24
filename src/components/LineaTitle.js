@@ -3,15 +3,15 @@ import "./LineaTitle.scss";
 import { useParams } from 'react-router-dom';
 import db from "../database2";
 
-export default function LineaTitle() {
+export default function LineaTitle({title, subtitle}) {
   const { id } = useParams();
   let pack = db.find(item => item.id == id)
   console.log(pack);
   
   return (
     <div className='linea-title'>
-      <h1>{pack.name}</h1>
-      <p>{pack.description}</p>
+      <h1>{title && subtitle?title:pack.name}</h1>
+      <p>{title && subtitle?subtitle:pack.description}</p>
     </div>
   )
 }

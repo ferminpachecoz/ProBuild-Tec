@@ -13,7 +13,7 @@ export default function Paquetes() {
             <div key={item.id}>
               <CardPaquete  
               id={item.id}
-              image={"https://hostiko.com/layout91/wp-content/uploads/2024/05/vps-img1.png"} 
+              image={item.image} 
               title={item.name} 
               description={item.description}
               production={item.production}

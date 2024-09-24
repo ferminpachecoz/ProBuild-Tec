@@ -9,6 +9,7 @@ import Servicios from "../components/Servicios";
 import Paquetes from "../components/Paquetes";
 import Catalogos from "../components/Catalogos";
 import Contacto from "../components/Contacto";
+import NuestroCompromiso from "../components/NuestroCompromiso";
 
 export default function Home(){
   function handleRedirect (){
@@ -34,6 +35,7 @@ export default function Home(){
         <Paquetes />
       </div>
       <QuienesSomos />
+      <NuestroCompromiso />
       <Catalogos />
       <Contacto />
       <Footer />

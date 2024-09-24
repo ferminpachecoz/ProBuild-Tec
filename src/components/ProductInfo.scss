@@ -4,25 +4,14 @@
     display: none;
   }
   .img{
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
     width: 100%;
-    height: 500px;
-  }
-  .image-slide {
-    width: 100%;
-    height: 50vh; // Ocupa la mitad de la pantalla en altura
-    background-size: cover; // Escala la imagen para cubrir todo el div
-    background-position: center; // Centra la imagen
-    background-repeat: no-repeat; // Evita que la imagen se repita
+    height: auto;
   }
   .informacion{
     height: 85vh;
-    overflow-y: scroll;
     padding: 0em 2em;
     h1{
-      color: var(--blue);
+      color: var(--primary);
       font-size: 35px;
       margin-bottom: 0.5em;
     }
@@ -52,13 +41,13 @@
         align-items: center;
         p{
           margin: 0px;
-          color: aqua;
+          color: var(--accent-secondary);
           font-weight: 600;
         }
         i{
           font-size: 30px;
           margin-right: 5px;
-          color: aqua;
+          color: var(--accent-secondary);
         }
       }
     }
@@ -66,7 +55,7 @@
       font-size: 25px;
       border: none;
       border-radius: 100px;
-      background-color: red;
+      background-color: var(--accent);
       padding: 5px 15px;
       width: 100%;
       color: white;
