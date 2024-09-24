@@ -119,6 +119,7 @@ export default function FormTaller() {
         production={recommendedPackage.production} 
         operators={recommendedPackage.operatorsRequired} 
         space={recommendedPackage.spaceRequired} 
+        width={"50%"}
         />
       </div>
       }

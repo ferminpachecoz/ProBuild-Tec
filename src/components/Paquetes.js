@@ -19,6 +19,7 @@ export default function Paquetes() {
               production={item.production}
               operators={item.operatorsRequired}
               space={item.spaceRequired}
+              width={"100%"}
               />
             </div>
           ))

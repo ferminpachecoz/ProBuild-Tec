@@ -2,11 +2,11 @@ import React from 'react';
 import "./CardPaquete.scss";
 import { Link } from 'react-router-dom';
 
-export default function CardPaquete({id, image, title, description, production, operators, space}) {
+export default function CardPaquete({id, image, title, description, production, operators, space, width}) {
   return (
     <div className='paquete'>
       <div className='img-container'>
-        <img src={image} alt={title} />
+        <img src={image} alt={title} style={{width: `${width}`}} />
       </div>
       <p className='title'>{title}</p>
       <p className='description'>{description}</p>
