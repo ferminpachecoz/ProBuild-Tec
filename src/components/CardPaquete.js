@@ -6,7 +6,7 @@ export default function CardPaquete({id, image, title, description, production, 
   return (
     <div className='paquete'>
       <div className='img-container'>
-        <img src={image} alt={title} style={{width: `${width}`}} />
+        <img src={image} alt={title} className={`${width}`} />
       </div>
       <p className='title'>{title}</p>
       <p className='description'>{description}</p>

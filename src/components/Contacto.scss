@@ -66,3 +66,15 @@
     }
   }
 }
+@media (max-width:480px){
+  .contacto{
+    padding: 2em;
+    form{
+      width: 100%;
+      padding: 1em;
+      input{
+        width: 100%;
+      }
+    }
+  }
+}

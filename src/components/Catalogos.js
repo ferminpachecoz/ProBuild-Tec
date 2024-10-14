@@ -22,7 +22,7 @@ export default function Catalogos() {
   return (
     <div className='catalogos' id='catalogos'>
       <h2>Catálogos</h2>
-      <div className='row justify-content-evenly contenedor row-cols-3'>
+      <div className='row justify-content-evenly contenedor row-cols-lg-3 row-cols-1'>
         {
           array.map((item,index)=>(
             <div className='wrapper' key={index}>

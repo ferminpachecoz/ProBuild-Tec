@@ -1,23 +1,25 @@
-import React, {useState} from "react";
+import React, {useState, useRef} from "react";
 import "./Header.scss";
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
 
 export default function Header(){
-  const [display, setDisplay] = useState(true);
-  function handleClick(){
-    console.log(display);
-    setDisplay(!display)
-  }
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  // Función para alternar el estado del menú
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+  console.log(isMenuOpen);
   
   return(
-    <div className="header d-flex">
-      <div className="logo">
+    <div className="header d-flex row-cols-2">
+      <div className="logo order-1">
         <Link to="/">
           <img src="/logobg.png" alt="logo" />
         </Link>
       </div>
-      <div className="menu" style={{display: display?"block":"none"}}>
+      <div className={`menu order-3 ${isMenuOpen ? "menu-open" : "menu-close"}`}>
         <ul className="row justify-content-center h-100 align-items-center">
           <li className="col">
             <Link to="/armar-tu-taller">Armá tu taller</Link>
@@ -36,7 +38,9 @@ export default function Header(){
           </li>
         </ul>
       </div>
-      <i className="bi bi-list burger-menu" onClick={()=>handleClick()}></i>
+      <div className="burger-menu order-2">
+        <i className="bi bi-list" onClick={toggleMenu}></i>
+      </div>
     </div>
   )
 }

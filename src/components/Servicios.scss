@@ -15,3 +15,11 @@
     padding: 0em 5em;
   }
 }
+@media (max-width: 480px){
+  .servicios{
+    padding: 10em 1em 1em 1em;
+    p{
+      padding: 1em;
+    }
+  }
+}

@@ -94,9 +94,8 @@ export default function FormTaller() {
             <input type="text" name='produccion' placeholder='Objetivo de producción por día' onChange={handleChange} />
             <input type="text" name='superficie' placeholder='Superficie disponible del taller' onChange={handleChange} />
           </div>
-          <div className='group d-flex justify-content-around row-cols-2'>
+          <div className='group d-flex justify-content-start row-cols-2'>
             <input type="text" name='operadores' placeholder='Cuantos operadores tiene su equipo' onChange={handleChange} />
-            <input type="text" name='presupuesto' placeholder='Presupuesto Esperado' onChange={handleChange} />
           </div>
           <button type='submit'>Calcular</button>
         </form>

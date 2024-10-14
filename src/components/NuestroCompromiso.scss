@@ -16,3 +16,11 @@
     margin-top: 2em;
   }
 }
+@media (max-width: 480px){
+  .nuestro-compromiso{
+    padding: 2em;
+    .no-wrap{
+      flex-wrap: wrap !important;
+    }
+  }
+}

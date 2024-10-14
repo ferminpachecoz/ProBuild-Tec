@@ -7,7 +7,8 @@
     display: flex;
     justify-content: center;
     margin-bottom: 2em;
-    img{
+    .responsive-width{
+      width: 100%;
       aspect-ratio: 1 / 1;
     }
   }
@@ -77,5 +78,14 @@
   a{
     color: white;
     background-color: var(--accent-secondary);
+  }
+}
+@media (max-width: 480px){
+  .paquete{
+    .img-container{
+      .responsive-width{
+        width: 70%;
+      }
+    }
   }
 }

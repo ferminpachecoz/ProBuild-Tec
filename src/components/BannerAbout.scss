@@ -50,12 +50,23 @@
 }
 @media (max-width: 480px) {
   .contenedor{
+    padding: 2em;
+    .img{
+      height: 50vh;
+    }
     .text{
       padding: 0em 1em 1em 1em;
       font-size: 14px;
       line-height: 25px;
       p{
         margin: 0px;
+      }
+      ul{
+        padding: 0em;
+        margin-top: 2em;
+        li{
+          margin-bottom: 1.5em;
+        }
       }
     }
   }

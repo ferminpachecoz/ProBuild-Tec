@@ -68,3 +68,14 @@
     }
   }
 }
+@media (max-width: 480px){
+  .catalogos{
+    padding: 2em;
+    .contenedor{
+      padding: 0em;
+      .wrapper{
+        padding: 2em 3em;
+      }
+    }
+  }
+}

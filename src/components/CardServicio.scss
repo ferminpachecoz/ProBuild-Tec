@@ -1,12 +1,13 @@
 .card-servicio{
   padding: 0em 1em;
   .sub-container{
-    padding: 2em 1em;
+    padding: 1em;
     box-shadow: 4px 3px 5px rgba(0, 0, 0, 0.3);
     border-radius: 8px;
     border: 1px solid transparent;
     background-color: white;
     transition: 0.3s;
+    height: 100%;
     .img-container{
       display: flex;
       justify-content: center;
@@ -28,9 +29,15 @@
       font-size: 14px;
       color: var(--text);
       padding: 0px;
+      margin-bottom: 0px;
     }
   }
   .sub-container:hover{
     border: 1px solid var(--accent-secondary);
+  }
+}
+@media (max-width: 480px){
+  .card-servicio{
+    padding: 1em 0em;
   }
 }

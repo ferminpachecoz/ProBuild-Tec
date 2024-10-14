@@ -7,7 +7,7 @@ export default function Paquetes() {
   return (
     <div className='paquetes' id='paquetes'>
       <h2 className='main-title'>Elegí tu paquete ideal</h2>
-      <div className='row justify-content-evenly align-items-center g-5 row-cols-4 paq-container'>
+      <div className='row justify-content-evenly align-items-center g-5 row-cols-1 row-cols-lg-4 paq-container'>
         {
           database.map(item=>(
             <div key={item.id}>
@@ -19,7 +19,7 @@ export default function Paquetes() {
               production={item.production}
               operators={item.operatorsRequired}
               space={item.spaceRequired}
-              width={"100%"}
+              width={"responsive-width"}
               />
             </div>
           ))
