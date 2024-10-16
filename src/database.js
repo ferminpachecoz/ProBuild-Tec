@@ -188,7 +188,7 @@ let database = [
     code: "SM 1000",
     name: "Atornilladora Automática de Láminas de Apoyo de Doble Cabezal",
     description: "SM 1000 es una máquina automática que se utiliza con el objetivo de atornillar automáticamente perfiles de PVC que cuentan con láminas de apoyo en su interior.",
-    image: [""],
+    image: ["SM 1000.jpg", "SM 1000 2.jpg", "SM 1000 3.jpg", "SM 1000 4.jpg"],
     categoria: "Atornilladora De Láminas De Apoyo De Doble Cabezal"
   },
   {

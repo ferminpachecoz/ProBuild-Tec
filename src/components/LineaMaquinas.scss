@@ -20,3 +20,11 @@
     padding: 3em 0em;
   }
 }
+@media (max-width: 480px){
+  .linea-maquinas{
+    padding: 2em;
+    .title{
+      margin: 3em 0em 0em 0em;
+    }
+  }
+}

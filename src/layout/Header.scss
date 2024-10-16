@@ -69,6 +69,7 @@
     }
     .menu-open {
       display: block; // Mostramos el menú cuando el estado está activo
+      z-index: 10000000;
     }
     .menu-close{
       display: none;

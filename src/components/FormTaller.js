@@ -81,20 +81,20 @@ export default function FormTaller() {
       {formVisible && (
         <form onSubmit={handleSubmit}>
           <h2>Rellena con tus datos</h2>
-          <div className='group d-flex justify-content-around row-cols-2'>
+          <div className='group d-lg-flex d-block justify-content-around row-cols-2'>
             <input type="text" name='nombre' placeholder='Nombre' onChange={handleChange} />
             <input type="text" name='apellido' placeholder='Apellido' onChange={handleChange} />
           </div>
           <input type="text" name='email' placeholder='Email' onChange={handleChange} />
-          <div className='group d-flex justify-content-around row-cols-2'>
+          <div className='group d-lg-flex d-block justify-content-around row-cols-2'>
             <input type="text" name='empresa' placeholder='Empresa' onChange={handleChange} />
             <input type="text" name='telefono' placeholder='Teléfono' onChange={handleChange} />
           </div>
-          <div className='group d-flex justify-content-around row-cols-2'>
+          <div className='group d-lg-flex d-block justify-content-around row-cols-2'>
             <input type="text" name='produccion' placeholder='Objetivo de producción por día' onChange={handleChange} />
             <input type="text" name='superficie' placeholder='Superficie disponible del taller' onChange={handleChange} />
           </div>
-          <div className='group d-flex justify-content-start row-cols-2'>
+          <div className='group d-lg-flex d-block justify-content-start row-cols-2'>
             <input type="text" name='operadores' placeholder='Cuantos operadores tiene su equipo' onChange={handleChange} />
           </div>
           <button type='submit'>Calcular</button>

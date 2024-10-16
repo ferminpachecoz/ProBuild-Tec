@@ -83,3 +83,13 @@
     font-size: 14px;
   }  
 }
+@media(max-width: 480px){
+  .form-taller{
+    form{
+      width: 100%;
+      input{
+        width: 100%;
+      }
+    }
+  }
+}

@@ -21,3 +21,14 @@
     text-align: center;
   }
 }
+@media (max-width: 480px){
+  .linea-title{
+    height: 80vh;
+    h1{
+      font-size: 44px;
+    }
+    p{
+      width: 80%;
+    }
+  }
+}

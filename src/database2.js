@@ -6,8 +6,8 @@ let db =[
     operatorsRequired: "7-10",
     production: "50-60",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    machines: ["ACK 420 S", "CRM 201S", "KM 215", "SDT 275", "TK 503", "CA 601", "CK 412"],
-    additionals: ["VP 1000", "WB 4000", "SKN 301", "GPT 1000", "PT 1000"],
+    machines: ["ACK 420 S", "CRM 201S", "KM 215 S", "SDT 275", "TK 503", "CA 601", "CK 412"],
+    additionals: ["VP 1000", "WB 4000", "SKN 301", "GPT 1000"],
     image: "/images/small-factory.png"
   },
   {
@@ -17,8 +17,8 @@ let db =[
     operatorsRequired: "8-10",
     production: "80-90",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    machines: ["DC 421 PBS", "FR 225 S", "ST 264", "KM 215", "SDT 275", "SM 201", "DK 502", "CK 412"],
-    additionals: ["VP 1000", "HP 1000", "WB 4000", "NSM 352", "SKN 301", "GPT 1000", "PT 1000"],
+    machines: ["DC 421 PBS", "FR 225 S", "ST 264", "KM 215 S", "SDT 275", "SM 201", "DK 502", "CK 412"],
+    additionals: ["VP 1000", "HP 1000", "WB 4000", "NSM 352", "SKN 301", "GPT 1000"],
     image: "/images/medium-small-factory.png"
   },
   {
@@ -28,8 +28,8 @@ let db =[
     operatorsRequired: "9",
     production: "170-200",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    machines: ["DC 421 PBS","FR 226 S","ST 264","KM 215","SDT 275","CCL 1660","NSM 352","CK 412"],
-    additionals: ["VP 1000","WB 4000","SKN 301","GPT 1000", "PT 1000"],
+    machines: ["DC 421 PBS","FR 226 S","ST 264","KM 215 S","SDT 275","CCL 1660","NSM 352","CK 412"],
+    additionals: ["VP 1000","WB 4000","SKN 301","GPT 1000"],
     image: "/images/medium-factory.png"
   },
   {

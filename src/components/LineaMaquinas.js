@@ -7,7 +7,6 @@ import CardMaquina from "./CardMaquina.js"
 export default function LineaMaquinas() {
   let { id } = useParams();
   let pack = db2.find(item=>toString(item.id) === toString(id));
-  console.log(pack);
   
   return (
     <div className='linea-maquinas'>
@@ -16,7 +15,7 @@ export default function LineaMaquinas() {
           <h2>todas las máquinas incluidas</h2>
           <p>One fundamental aspect of IT services is infrastructure management. This involves the design, implementation, and maintenance of the hardware, software, networks, and servers.</p>
       </div>
-      <div className='maquinas row row-cols-5 g-5 justify-content-start align-items-center'>
+      <div className='maquinas row row-cols-2 row-cols-lg-5 g-5 justify-content-start align-items-center'>
         {
           pack.machines.map((item, index)=>(
             <div key={index}>
@@ -29,7 +28,7 @@ export default function LineaMaquinas() {
         <h2>máquinas opcionales</h2>
         <p>One fundamental aspect of IT services is infrastructure management. This involves the design, implementation, and maintenance of the hardware, software, networks, and servers.</p>
       </div>
-      <div className='maquinas row row-cols-5 justify-content-start align-items-center'>
+      <div className='maquinas row row-cols-2 row-cols-lg-5 justify-content-start align-items-center'>
         {
           pack.additionals.map((item, index)=>(
             <div key={index}>

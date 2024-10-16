@@ -10,7 +10,6 @@ export default function Header(){
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
-  console.log(isMenuOpen);
   
   return(
     <div className="header d-flex row-cols-2">
