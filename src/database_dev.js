@@ -10,7 +10,8 @@ let db = [
     ],
     why: "La ACK 420 S es ideal para fabricantes que buscan precisión, eficiencia y una solución integral para el corte de perfiles en talleres de aberturas de PVC. Su diseño robusto y tecnología avanzada se combinan para ofrecer resultados consistentes, mientras que su facilidad de uso permite una rápida adaptación en cualquier entorno de producción.",
     optionals: "",
-    images: ["ACK 420 S.png", "ACK 420 S 1.jpg"]
+    images: ["ACK 420 S.png", "ACK 420 S 1.jpg"],
+    video: '<iframe  height="380" src="https://www.youtube.com/embed/nMFjehhfAgw?si=WN6JRRLB5LNnI9Wp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   },
   {
     id: 2,
@@ -24,7 +25,8 @@ let db = [
     ],
     why: "La CRM 201S es una elección excelente para aquellos fabricantes que buscan una máquina versátil y eficiente para el fresado y perforado en la fabricación de aberturas de PVC. Su diseño intuitivo y su capacidad de realizar fresados complejos y perforaciones triples de forma rápida y precisa la convierten en una herramienta clave para cualquier taller que busque optimizar su producción.",
     optionals: "",
-    images: ["CRM 201S.png", "CRM-201_2.png", "CRM-201_3.png", "CRM-201_4.png"]
+    images: ["CRM 201S.png", "CRM-201_2.png", "CRM-201_3.png", "CRM-201_4.png"],
+    video: '<iframe  height="380" src="https://www.youtube.com/embed/T2QbRzjeVqM?si=KwBKFUctRlmkZr8-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   },
   {
     id: 3,
@@ -37,7 +39,8 @@ let db = [
     ],
     why: "La KM 215 S es perfecta para fabricantes que buscan precisión y eficiencia en el ajuste de montantes centrales, con la flexibilidad de una operación semiautomática y la posibilidad de personalizar la máquina con accesorios opcionales. Diseñada para mejorar el flujo de trabajo en talleres de aberturas de PVC, esta máquina garantiza resultados consistentes y de alta calidad, respaldados por una tecnología avanzada en sistemas de sujeción y lubricación.",
     optionals: "Para adaptarse a las necesidades específicas de cada taller, la KM 215 S ofrece accesorios opcionales como el set de cuchillas, ideal para cortes especializados, y la cinta transportadora MKN 100, que permite un manejo más fluido de los perfiles, optimizando aún más el proceso de fabricación.",
-    images: ["KM 215.png", "KM-215_2.png", "KM-215-S-1.webp", "KM-215-S-2.webp", "KM-215-S-3.webp", "KM-215-S-4.webp", "KM-215-S-5.webp"]
+    images: ["KM 215.png", "KM-215_2.png", "KM-215-S-1.webp", "KM-215-S-2.webp", "KM-215-S-3.webp", "KM-215-S-4.webp", "KM-215-S-5.webp"],
+    video: '<iframe  height="380" src="https://www.youtube.com/embed/bJOqcDh71R0?si=y1mR0wrCPAIU46Rf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   },
   {
     id: 4,
@@ -51,7 +54,8 @@ let db = [
     ],
     why: "Con una capacidad de corte para perfiles de hasta 70 x 70 mm, la SDT 275 se convierte en una herramienta indispensable para aquellos fabricantes que buscan precisión y eficiencia en la creación de refuerzos interiores de marcos de PVC.",
     optionals: "",
-    images: ["SDT 275.png"]
+    images: ["SDT 275.png"],
+    video: '<iframe  height="380" src="https://www.youtube.com/embed/i3A8_92iNjA?si=X4cpG2fmByBu9h2p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   },
   {
     id: 5,
@@ -64,7 +68,8 @@ let db = [
     ],
     why: "La TK 503 es perfecta para fabricantes que requieren una solución confiable y de alta precisión en la soldadura de esquinas en perfiles de PVC. Con su capacidad de realizar soldaduras rápidas y seguras, esta máquina no solo aumenta la eficiencia del taller, sino que también garantiza un acabado profesional en cada proyecto. Su diseño compacto y eficiente es ideal para optimizar el espacio y la productividad en cualquier entorno de fabricación.",
     optionals: "",
-    images: ["TK 503.png"]
+    images: ["TK 503.png"],
+    video: ''
   },
   {
     id: 6,
@@ -76,7 +81,8 @@ let db = [
     ],
     why: "La CA 601 es la solución perfecta para talleres que buscan mejorar la calidad de los acabados en la fabricación de aberturas de PVC. Su sistema semiautomático de limpieza asegura una operación eficiente y precisa, ideal para mantener la calidad en alto volumen de producción. Con la posibilidad de agregar cuchillas especializadas, esta máquina es una excelente opción para aquellos que buscan un rendimiento superior en la limpieza de esquinas de PVC.",
     optionals: "Para maximizar la funcionalidad de la CA 601, está disponible un set de cuchillas opcional, diseñado específicamente para la limpieza detallada de esquinas, lo que la convierte en una herramienta aún más versátil para adaptarse a diferentes necesidades de producción.",
-    images: ["CA 601.png", "CA-601-1.webp", "CA-601-2.webp", "CA-601-3.webp", "CA-601-4.webp", "CA-601-5.webp"]
+    images: ["CA 601.png", "CA-601-1.webp", "CA-601-2.webp", "CA-601-3.webp", "CA-601-4.webp", "CA-601-5.webp"],
+    video: '<iframe  height="380" src="https://www.youtube.com/embed/KaaV_Kqc_rw?si=PdCoKDUbOpsjE3L_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   },
   {
     id: 7,
@@ -88,7 +94,8 @@ let db = [
     ],
     why: "La CK 412 es la elección perfecta para talleres de fabricación de PVC que buscan una cortadora de junquillos precisa, eficiente y personalizable. Con su capacidad de realizar cortes rápidos y exactos, junto con la opción de agregar accesorios para optimizar aún más su rendimiento, esta máquina se posiciona como una herramienta indispensable para quienes buscan mejorar sus procesos de producción de aberturas de PVC.",
     optionals: "Para una mayor flexibilidad y precisión, la CK 412 ofrece una amplia gama de accesorios opcionales, como el pedal eléctrico con regulador y manómetro para un control más preciso de las abrazaderas verticales, y hojas de sierra adicionales de Ø200 mm y Ø103 mm, que permiten adaptar la máquina a diferentes tipos de proyectos. Además, se encuentran disponibles diversos topes de longitud, incluyendo modelos con dispositivos de medición digital, lo que asegura una mayor exactitud en cada corte.",
-    images: ["CK 412.png", "CK-412-2.webp", "CK-412-3.webp", "CK-412-4.webp", "CK-412-5.webp", "CK-412-1.webp"]
+    images: ["CK 412.png", "CK-412-2.webp", "CK-412-3.webp", "CK-412-4.webp", "CK-412-5.webp", "CK-412-1.webp"],
+    video: '<iframe  height="380" src="https://www.youtube.com/embed/jsvlmvh6lRs?si=rxQiOD60cN21wEtE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   },
   {
     id: 8,
@@ -101,7 +108,8 @@ let db = [
     ],
     why: "La DC 421 PBS es una máquina de última generación que permite realizar cortes precisos y eficientes de perfiles de PVC de manera totalmente automatizada. Su combinación de tecnología avanzada, accesorios personalizables y operación automatizada la convierten en una herramienta esencial para talleres que buscan mejorar su productividad y precisión en la fabricación de aberturas de PVC. Con opciones de corte personalizadas y funciones avanzadas, esta cortadora es la solución ideal para proyectos de alta demanda y gran escala.",
     optionals: "La DC 421 PBS puede personalizarse con una variedad de accesorios opcionales que mejoran aún más su versatilidad. Entre ellos se incluye un sistema de corte para perfiles cortos (DKN 71), una aspiradora de limaduras VCE 1570 para mantener el área de trabajo limpia, y aparatos de medición de tamaño (DLG200-DLG300) para asegurar una precisión milimétrica. Además, cuenta con un sistema de corte en flecha para travesaños verticales, lo que la convierte en una opción perfecta para proyectos más complejos.",
-    images: ["DC 421 PBS.png", "DC 421 PBS-1.png", "DC 421 PBS-2.png"]
+    images: ["DC 421 PBS.png", "DC 421 PBS-1.png", "DC 421 PBS-2.png"],
+    video: '<iframe  height="380" src="https://www.youtube.com/embed/1B5elf1hDG4?si=l3JPQT3s6Rq4NCV-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   },
   {
     id: 9,
@@ -114,7 +122,8 @@ let db = [
     ],
     why: "La FR 225 S es la solución perfecta para talleres que buscan una máquina versátil y eficiente para el fresado y perforación en la fabricación de puertas y ventanas de PVC y aluminio. Su capacidad de realizar múltiples tareas con precisión, combinada con la opción de personalizar la máquina con accesorios, la convierte en una herramienta imprescindible para proyectos de alto rendimiento. Con esta fresadora, los fabricantes pueden mejorar su productividad y asegurar acabados de alta calidad en cada producto.",
     optionals: "Para adaptarse a las necesidades específicas de cada taller, la FR 225 S ofrece una serie de accesorios opcionales, como una broca adicional de fresadora, una plantilla especial de copiado para trabajos personalizados y el aparato promediador MA 240. También es posible incorporar una cinta transportadora MKN 150 para mejorar el flujo de trabajo y el manejo de los perfiles.",
-    images: ["FR 225 S.png", "FR-225-S-1.webp", "FR-225-S-2.webp", "FR-225-S-3.webp", "FR-225-S-4.webp", "FR-225-S-5.webp", "FR-225-S-6.webp"]
+    images: ["FR 225 S.png", "FR-225-S-1.webp", "FR-225-S-2.webp", "FR-225-S-3.webp", "FR-225-S-4.webp", "FR-225-S-5.webp", "FR-225-S-6.webp"],
+    video: '<iframe  height="380" src="https://www.youtube.com/embed/jBFL8xrS78E?si=mkRcJfPc9qeaOxgu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   },
   {
     id: 10,
@@ -126,7 +135,8 @@ let db = [
     ],
     why: "La ST 264 es perfecta para aquellos fabricantes de aberturas de PVC que necesitan una herramienta confiable para la apertura de canales de drenaje. Con su diseño robusto y fácil de operar, esta máquina garantiza resultados consistentes, optimizando tanto la calidad del producto final como la productividad del taller.",
     optionals: "",
-    images: ["ST 264.png", "ST-264_2.png"]
+    images: ["ST 264.png", "ST-264_2.png"],
+    video: '<iframe  height="380" src="https://www.youtube.com/embed/wmAbhP5awos?si=KGvA5burXhhldOUw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   },
   {
     id: 11,
@@ -140,7 +150,8 @@ let db = [
     ],
     why: "La SM 201 es la solución perfecta para fabricantes de ventanas y puertas de PVC que buscan una herramienta rápida, precisa y segura para el atornillado de tornillos de apoyo. Con su ajuste flexible para diferentes perfiles y su enfoque en la eficiencia del trabajo, esta máquina se convierte en un aliado indispensable en cualquier taller que busque optimizar sus procesos de producción.",
     optionals: "",
-    images: ["SM 201.png"]
+    images: ["SM 201.png"],
+    video: ''
   },
   {
     id: 12,
@@ -154,7 +165,8 @@ let db = [
     ],
     why: "La NSM 352 es ideal para fabricantes de ventanas que buscan optimizar sus procesos de ensamblaje con tecnología avanzada y automatización. Su capacidad de ajustar componentes sin cambiar moldes, junto con su sistema automático de medición y alineación, hacen que esta estación de ensamblaje sea indispensable para cualquier taller que quiera aumentar su eficiencia y precisión en la producción de bastidores.",
     optionals: "",
-    images: ["NSM 352.png", "NSM-352-1.webp", "NSM-352-2.webp", "NSM-352-3.webp", "NSM-352-4.webp", "NSM-352-5.webp"]
+    images: ["NSM 352.png", "NSM-352-1.webp", "NSM-352-2.webp", "NSM-352-3.webp", "NSM-352-4.webp", "NSM-352-5.webp"],
+    video: '<iframe  height="380" src="https://www.youtube.com/embed/z4xep3o2gks?si=lZoGqX0GX26D-4rC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   },
   {
     id: 13,
@@ -167,7 +179,8 @@ let db = [
     ],
     why: "La DK 502 es perfecta para fabricantes de aberturas de PVC que requieren una máquina precisa, rápida y altamente configurable para la soldadura de esquinas. Su capacidad para ajustar parámetros y realizar soldaduras de alta precisión la convierte en una herramienta indispensable para optimizar los tiempos de producción y garantizar resultados de alta calidad.",
     optionals: "Sus accesorios estándar son dos brazos de apoyo para perfiles. Control intuitivo de los parámetros de soldadura. Por otro lado, sus accedorios opcionales son moldes de soldadura especiales bajo pedido, adaptados a las necesidades específicas del cliente",
-    images: ["DK 502.png", "DK-502_2.webp", "DK-502_3.webp", "DK-502_4.webp"]
+    images: ["DK 502.png", "DK-502_2.webp", "DK-502_3.webp", "DK-502_4.webp"],
+    video: '<iframe  height="380" src="https://www.youtube.com/embed/xxug_Jp9ghE?si=EJcrW1nQ2fVF86Nw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   },
   {
     id: 14,
@@ -179,7 +192,8 @@ let db = [
     ],
     why: "La CA 603 es una opción ideal para talleres que buscan una máquina confiable y eficiente para la limpieza de esquinas en perfiles de PVC. Su sistema de cuchillas múltiples y su diseño ergonómico la convierten en una herramienta indispensable para mejorar la calidad del acabado, garantizando un resultado profesional y reduciendo el tiempo de producción.",
     optionals: "Para personalizar aún más la CA 603, se ofrece un set de cuchillas adicional para la limpieza de esquinas, lo que permite adaptar la máquina a las necesidades específicas del taller y mejorar la precisión en perfiles de distintos tamaños y formas.",
-    images: ["CA 601.png", "CA-601-1.webp", "CA-601-2.webp", "CA-601-3.webp", "CA-601-4.webp", "CA-601-5.webp"]
+    images: ["CA 601.png", "CA-601-1.webp", "CA-601-2.webp", "CA-601-3.webp", "CA-601-4.webp", "CA-601-5.webp"],
+    video: '<iframe  height="380" src="https://www.youtube.com/embed/zNTBAK4M1vY?si=pzijM_0RxKGUNCf0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   },
   {
     id: 15,
@@ -192,7 +206,8 @@ let db = [
     ],
     why: "La FR 226 S es la solución ideal para aquellos talleres que buscan una fresadora versátil y automática, capaz de realizar una amplia gama de tareas de fresado y perforación. Con su precisión y capacidad de personalización, esta máquina asegura un rendimiento superior, reduciendo tiempos de producción y aumentando la eficiencia en la fabricación de ventanas y puertas de PVC y aluminio.",
     optionals: "Para adaptarse a las necesidades específicas del taller, la FR 226 S puede equiparse con una broca adicional de fresadora, una plantilla especial de copiado, y el aparato promediador MA 240. Además, se puede añadir una cinta transportadora MKN 150 para mejorar el manejo de los perfiles y agilizar el proceso productivo.",
-    images: ["FR 226 S.png", "FR-226-S_2.png"]
+    images: ["FR 226 S.png", "FR-226-S_2.png"],
+    video: '<iframe  height="380" src="https://www.youtube.com/embed/IAy11Z3XeZY?si=lq_-e30SUf7GiOuC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   },
   {
     id: 16,
@@ -206,7 +221,8 @@ let db = [
     why: "La CCL 1660 ofrece una solución completa para talleres que necesitan soldar y limpiar perfiles de PVC de manera eficiente y precisa. Gracias a su sistema automatizado, que incluye soldadura, enfriamiento y limpieza de esquinas, esta línea de producción optimiza cada etapa del proceso de fabricación de ventanas y puertas de PVC, garantizando un alto nivel de calidad en menos tiempo. Con los accesorios opcionales, esta máquina se adapta perfectamente a proyectos personalizados, aumentando aún más su versatilidad.",
     optionals: "Los accesorios opcionales ofrecen una mayor versatilidad y precisión en el proceso de producción. La unidad de almacenamiento SA 255 organiza eficientemente los marcos soldados, mientras que el sistema de presión de junta CS 240 mejora la colocación de juntas. La soldadura a tope por aproximación garantiza precisión en marcos irregulares y las plantillas especiales de soldadura permiten adaptarse a proyectos personalizados.",
     standards: "Los accesorios estándar incluyen la máquina de soldadura de cuatro cabezales DK 540, la unidad de refrigeración SA 250, la unidad robótica SA 260 y la máquina de limpieza de esquinas CNC 608 o CNC 610, optimizando el proceso de soldadura y limpieza de marcos.",
-    images: ["CCL 1660.png"]
+    images: ["CCL 1660.png"],
+    video: '<iframe  height="380" src="https://www.youtube.com/embed/feWx5BXMSn0?si=oWdY9A4xfFfaOC5B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   },
   {
     id: 17,
@@ -220,7 +236,8 @@ let db = [
     ],
     why: "La PIM 6509 es una solución ideal para talleres que buscan un alto rendimiento en la fabricación de perfiles de PVC. Su sistema automatizado de 8 ejes, junto con la capacidad de procesar grandes volúmenes en poco tiempo, la convierte en una herramienta imprescindible para quienes buscan optimizar su producción con precisión y eficiencia. Además, su capacidad de conexión remota y soporte técnico asegura que el equipo esté siempre funcionando a pleno rendimiento.",
     optionals: "",
-    images: ["PIM 6509.png", "PIM-6509_1.png", "PIM-6509_2.png", "PIM-6509_3.png", "PIM-6509_4.png", "PIM-6509_5.png", "PIM-6509_6.png", "PIM-6509_7.png", "PIM-6509_8.png"]
+    images: ["PIM 6509.png", "PIM-6509_1.png", "PIM-6509_2.png", "PIM-6509_3.png", "PIM-6509_4.png", "PIM-6509_5.png", "PIM-6509_6.png", "PIM-6509_7.png", "PIM-6509_8.png"],
+    video: '<iframe  height="380" src="https://www.youtube.com/embed/lQlX-jXfegU?si=spvy1hO2831WoUv5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   },
   {
     id: 18,
@@ -234,7 +251,8 @@ let db = [
     why: "La SM 1000 es ideal para talleres que necesitan una solución confiable y precisa para el atornillado automático de láminas de apoyo en perfiles de PVC. Su capacidad para manejar perfiles de diferentes tamaños, junto con su diseño seguro y eficiente, la convierte en una opción indispensable para aumentar la productividad y la calidad en la fabricación de ventanas y puertas.",
     optionals: "",
     standards: "Los accesorios estándar incluyen una valla de seguridad en ambos lados de la máquina, una mesa de montaje de acero reforzado para garantizar estabilidad antes del atornillado, y una estación intermedia para organizar los perfiles atornillados tras el proceso.",
-    images: ["SM 1000.jpg", "SM 1000 2.jpg", "SM 1000 3.jpg", "SM 1000 4.jpg"]
+    images: ["SM 1000.jpg", "SM 1000 2.jpg", "SM 1000 3.jpg", "SM 1000 4.jpg"],
+    video: '<iframe  height="380" src="https://www.youtube.com/embed/7ygUTUmaqck?si=HHknet4TvQcc-G7w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   },
   {
     id: 19,
@@ -248,7 +266,8 @@ let db = [
     why: "La MEM 128 es perfecta para talleres que requieren una máquina versátil y eficiente para la apertura de rieles múltiples en perfiles de PVC. Su diseño semiautomático, combinado con sus abrazaderas ajustables, permite un alto nivel de precisión, mientras que los accesorios opcionales la hacen adaptable a diferentes proyectos. Es una solución confiable para mejorar la productividad y la calidad del trabajo en la fabricación de ventanas y puertas.",
     optionals: "El accesorio opcional incluye un set de cuchillas adicional para adaptarse a diferentes necesidades de fresado y corte de rieles, ofreciendo mayor flexibilidad y precisión en el proceso.",
     standards: "Los accesorios estándar incluyen 12 abrazaderas verticales neumáticas con presión ajustable, un set de abrazaderas horizontales para asegurar firmemente los perfiles, y un martillo neumático que facilita una operación más eficiente y fluida.",
-    images: ["MEM 128.png", "MEM-128_2.png", "MEM-128_3.png", "MEM-128_4.png", "MEM-128_5.png"]
+    images: ["MEM 128.png", "MEM-128_2.png", "MEM-128_3.png", "MEM-128_4.png", "MEM-128_5.png"],
+    video: '<iframe  height="380" src="https://www.youtube.com/embed/_SUsRMDpDL4?si=KI4bxonpSWerTkWd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   },
   {
     id: 20,
@@ -262,7 +281,8 @@ let db = [
     why: "La SDT 280 es ideal para talleres que buscan una máquina de corte semiautomática robusta y precisa para perfiles y láminas de apoyo de PVC. Su diseño compacto, combinado con un sistema de sujeción hidráulico y una sierra de cinta bimetálica de alta precisión, asegura cortes eficientes y de alta calidad en una variedad de materiales.",
     optionals: "",
     standards: "Los accesorios estándar incluyen una mesa de rodillos de alimentación de 3 metros para facilitar el transporte de materiales hacia la máquina, una unidad transportadora de virutas que elimina las virutas de corte manteniendo el área de trabajo limpia, y una sierra de cinta bimetálica inclinada 2°, instalada en el arco de la máquina para mejorar el rendimiento en cortes angulares.",
-    images: ["SDT 280.png", "SDT280_1.webp", "SDT280_3.png", "SDT280_4.png", "SDT280_5.png", "SDT280_6.png", "SDT280_7.png", "SDT280_8.png", "SDT280_9.png", "SDT280_10.png", "SDT280_11.png"]
+    images: ["SDT 280.png", "SDT280_1.webp", "SDT280_3.png", "SDT280_4.png", "SDT280_5.png", "SDT280_6.png", "SDT280_7.png", "SDT280_8.png", "SDT280_9.png", "SDT280_10.png", "SDT280_11.png"],
+    video: ''
   },
   {
     id: 21,
@@ -276,7 +296,8 @@ let db = [
     ],
     why: "La NSM 353 es ideal para fabricantes de ventanas que buscan optimizar sus procesos de ensamblaje con tecnología avanzada y automatización. Su capacidad de ajustar componentes sin cambiar moldes, junto con su sistema automático de medición y alineación, hacen que esta estación de ensamblaje sea indispensable para cualquier taller que quiera aumentar su eficiencia y precisión en la producción de bastidores.",
     optionals: "",
-    images: ["NSM 353.png", "NSM-353-1.webp", "NSM-353-2.webp", "NSM-353-3.webp", "NSM-353-4.webp", "NSM-353-5.webp"]
+    images: ["NSM 353.png", "NSM-353-1.webp", "NSM-353-2.webp", "NSM-353-3.webp", "NSM-353-4.webp", "NSM-353-5.webp"],
+    video: '<iframe  height="380" src="https://www.youtube.com/embed/z4xep3o2gks?si=KunXx2xeYBSffUk1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   },
   {
     id: 22,
@@ -289,7 +310,8 @@ let db = [
     ],
     why: "El VP 1000 es perfecto para talleres que necesitan una solución práctica y segura para transportar y almacenar perfiles verticales. Su robustez, combinada con sus características de seguridad como los frenos en las ruedas y las tapas protectoras, lo convierten en un equipo esencial para mejorar la eficiencia y organización en el manejo de perfiles.",
     specifications: ["Dimensiones: 990 x 1500 x 1500 mm (Anchura x Longitud x Altura)", "Distancia entre separadores: 105 mm", "Longitud de las barras separadoras: 595 mm", "Capacidad de carga: 500 kg"],
-    images: ["VP 1000.png"]
+    images: ["VP 1000.png"],
+    video: ''
   },
   {
     id: 23,
@@ -302,7 +324,8 @@ let db = [
     ],
     why: "La WB 4000 es la mesa de montaje perfecta para talleres que buscan una estación de trabajo ajustable, segura y eficiente. Su capacidad para adaptarse a diferentes dimensiones de perfiles, combinada con su protección contra rayaduras y la facilidad de uso de herramientas neumáticas, la convierten en una herramienta esencial para mejorar la productividad en el ensamblaje de ventanas y otros proyectos de carpintería.",
     specifications: ["Amplitud de la Mesa de Trabajo: 2000 - 4000 mm", "Profundidad de la Mesa de Trabajo: 1000 - 2000 mm", "Altura de Trabajo: 820 mm", "Capacidad de carga: 350 kg"],
-    images: ["WB 4000.png"]
+    images: ["WB 4000.png"],
+    video: ''
   },
   {
     id: 24,
@@ -314,7 +337,8 @@ let db = [
     ],
     why: "La SKN 301 es la solución perfecta para talleres que buscan precisión y automatización en el corte de junquillos para ventanas. Su capacidad de trabajar de manera manual o automática, junto con su sistema de medición digital, permite reducir los errores y aumentar la eficiencia en la producción. Con opciones adicionales como la impresora de códigos de barras y diferentes longitudes de medición digital, esta cinta transportadora es esencial para optimizar el flujo de trabajo en la fabricación de ventanas.",
     specifications: ["Panel de control táctil de 5 pulgadas que facilita la programación y operación.", "Creación de recetas a través del panel, permitiendo configuraciones personalizadas para distintos tipos de cortes.", "Capacidad de trabajar junto a cortadoras y fresadoras, optimizando el proceso de producción.", "Sistema de medición digital para garantizar cortes precisos de junquillos.", "Modo de operación manual o automático según las necesidades del operario.", "Toma de medidas inalámbrica, garantizando rapidez y precisión en los procesos de corte."],
-    images: ["SKN 301.png"]
+    images: ["SKN 301.png"],
+    video: '<iframe  height="380" src="https://www.youtube.com/embed/D0XPZTNHAa8?si=WSOoYq_ctUbGc0Yx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
   },
   {
     id: 25,
@@ -326,7 +350,8 @@ let db = [
     ],
     why: "El GPT 1000 es la solución perfecta para talleres que necesitan una herramienta segura y eficiente para el transporte de vidrios y ventanas terminadas. Su diseño con ruedas y frenos asegura un movimiento fácil y seguro dentro del taller, mientras que los separadores y las tapas de plástico protegen los materiales delicados durante el transporte. Con una capacidad de carga de hasta 300 kg, es ideal para manejar grandes volúmenes sin comprometer la seguridad o integridad de los productos.",
     specifications: ["Dimensiones: 990 x 1500 x 1300 mm (Anchura x Longitud x Altura)", "Distancia entre separadores: 140 mm", "Capacidad de carga: 300 kg"],
-    images: ["GPT 1000.png"]
+    images: ["GPT 1000.png"],
+    video: ''
   },
   {
     id: 26,
@@ -338,7 +363,8 @@ let db = [
     ],
     why: "El <strong>HP 1000</strong> es la herramienta perfecta para cualquier taller que necesite una solución eficiente y segura para el transporte de perfiles horizontales. Su diseño robusto, combinado con características como el recubrimiento de caucho y la capacidad de carga para servicio pesado, lo convierten en un equipo imprescindible para mejorar la logística interna de los perfiles.",
     specifications: ["<strong>Dimensiones</strong>: 990 x 1600 x 1600 mm (Anchura x Longitud x Altura)", "<strong>Longitud de las barras separadoras</strong>: 430 mm x 2", "<strong>Capacidad de carga estándar</strong>: 350 kg", "<strong>Capacidad de carga para servicio pesado</strong>: 500 kg", "Almacenamiento y <strong>transporte seguro</strong> de perfiles horizontales.", "Ruedas con frenos para una <strong>mayor estabilidad</strong> durante el transporte.", "Recubrimiento de caucho para <strong>proteger los perfiles</strong> de rayaduras y daños.", "Capacidad de servicio pesado de hasta 500 kg, ideal para transportar <strong>grandes volúmenes</strong> de perfiles."],
-    images: ["HP 1000.png"]
+    images: ["HP 1000.png"],
+    video: ''
   }
 ]
 export default db;

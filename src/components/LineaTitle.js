@@ -6,7 +6,6 @@ import db from "../database2";
 export default function LineaTitle({title, subtitle}) {
   const { id } = useParams();
   let pack = db.find(item => item.id == id)
-  console.log(pack);
   
   return (
     <div className='linea-title'>

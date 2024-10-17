@@ -72,6 +72,10 @@ export default function ProductInfo({product}) {
           </>
           :""
         }
+        {product.video?
+        <div className='video' dangerouslySetInnerHTML={{ __html: product.video }}></div>
+        :""
+        }
       </div>
     </div>
   )
