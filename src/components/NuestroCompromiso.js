@@ -17,7 +17,7 @@ export default function NuestroCompromiso() {
   ]
   return (
     <div className='nuestro-compromiso'>
-      <h2>Nuestro Compromiso</h2>
+      <h2>Lo que nos diferencia</h2>
       <p>Sabemos que la inversión en maquinaria es una decisión clave, por eso ofrecemos no solo productos de alta calidad, sino también un acompañamiento estratégico y personalizado. Nos aseguramos de que nuestros clientes estén equipados con todo lo necesario para crecer en el sector de aberturas de PVC, un mercado en constante expansión.</p>
       <div className='row justify-content-center align-items-center no-wrap g-5 row-cols-1'>
         {

@@ -5,6 +5,7 @@
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 10000000;
   .logo{
     width: 25%;
     img{
@@ -20,7 +21,16 @@
         width: auto;
         flex-grow: 0;
         padding: 0em 2em;
-        a{
+        .dark{
+          width: auto;
+          color: white;
+          font-size: 14px;
+          font-weight: 500;
+          white-space: nowrap;
+          transition: 0.3s;
+          text-transform: uppercase;
+        }
+        .white{
           width: auto;
           color: var(--primary);
           font-size: 14px;

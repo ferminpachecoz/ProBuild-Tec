@@ -1,22 +1,49 @@
 import React from 'react';
 import "./MainBanner.scss";
+import Slides from './Slides';
 
 
 export default function MainBanner(){
+  let array=[
+    {
+      img: "/images/banner-1.jpeg.jpg",
+      title: "Lorem ipsum dolor sit amet, consectetur",
+      subtitle: "Duis non enim auctor justo mollis imperdiet. In imperdiet arcu at elementum elementum. Nulla eget porta justo.",
+      callToAction: "lorem ipsum"
+    },
+    {
+      img: "/images/banner-2.jpeg",
+      title: "Lorem ipsum dolor sit amet, consectetur 111",
+      subtitle: "Duis non enim auctor justo mollis imperdiet. In imperdiet arcu at elementum elementum. Nulla eget porta justo.",
+      callToAction: "lorem ipsum"
+    },
+    {
+      img: "/images/banner-1.jpeg.jpg",
+      title: "Lorem ipsum dolor sit amet, consectetur 222",
+      subtitle: "Duis non enim auctor justo mollis imperdiet. In imperdiet arcu at elementum elementum. Nulla eget porta justo.",
+      callToAction: "lorem ipsum"
+    },
+    
+  ]
   return(
-    <div className='main-banner row'>
-      <div className='text col-12 col-lg'>
-        <h1>Lorem ipsum dolor sit amet, consectetur</h1>
-        <p>Duis non enim auctor justo mollis imperdiet. In imperdiet arcu at elementum elementum. Nulla eget porta justo.</p>
-        <div className='center'>
-          <button>
-            <p>lorem ipsum</p> 
-          </button>
-        </div>
+    <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel" data-bs-pause="false">
+      <div className="carousel-inner">
+        {
+          array.map((item, index)=>(
+            <div className={`carousel-item ${index==0?'active':''}`} data-bs-interval="5000" key={index}>
+              <Slides image={item.img} title={item.title} subtitle={item.subtitle} callToAction={item.callToAction} />
+            </div>
+          ))
+        }
       </div>
-      <div className='col-12 col-lg image row justify-content-center align-items-center'>
-        <img src="https://hostiko.com/layout91/wp-content/uploads/2024/05/hostiko-banner-img.png" alt ="" />
-      </div>
+      <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="prev" id="btn">
+        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span className="visually-hidden">Previous</span>
+      </button>
+      <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="next" id="btn">
+        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+        <span className="visually-hidden">Next</span>
+      </button>
     </div>
   )
 }

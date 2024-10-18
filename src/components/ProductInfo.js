@@ -55,7 +55,7 @@ export default function ProductInfo({product}) {
         {product.optionals?
           <>
             <h2>Accesorios opcionales para mayor versatilidad</h2>
-            <p>{product.optionals}</p>
+            <p dangerouslySetInnerHTML={{__html: product.optionals}}></p>
           </>
           :""
         }

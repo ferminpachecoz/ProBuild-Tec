@@ -12,7 +12,7 @@ export default function Product() {
   console.log(product);
   return (
     <>
-      <Header />
+      <Header style={"white"} />
       <LineaTitle title={product.title} subtitle={product.type} />
       <ProductInfo product={product} />
       <Footer />

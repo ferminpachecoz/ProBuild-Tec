@@ -3,7 +3,7 @@ import "./Header.scss";
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
 
-export default function Header(){
+export default function Header({style}){
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   // Función para alternar el estado del menú
@@ -21,19 +21,19 @@ export default function Header(){
       <div className={`menu order-3 ${isMenuOpen ? "menu-open" : "menu-close"}`}>
         <ul className="row justify-content-center h-100 align-items-center">
           <li className="col">
-            <Link to="/armar-tu-taller">Armá tu taller</Link>
+            <Link to="/armar-tu-taller" className={`${style=="dark"?"dark":"white"}`}>Armá tu taller</Link>
           </li>
           <li className="col">
-            <HashLink smooth to="/#catalogos">Catálogos</HashLink>
+            <HashLink smooth to="/#catalogos" className={`${style=="dark"?"dark":"white"}`}>Catálogos</HashLink>
           </li>
           <li className="col">
-            <HashLink smooth to="/#catalogos">Consultoría</HashLink>
+            <HashLink smooth to="/#catalogos" className={`${style=="dark"?"dark":"white"}`}>Consultoría</HashLink>
           </li>
           <li className="col">
-            <HashLink smooth to="/#paquetes">Paquetes</HashLink>
+            <HashLink smooth to="/#paquetes" className={`${style=="dark"?"dark":"white"}`}>Paquetes</HashLink>
           </li>
           <li className="col">
-            <HashLink smooth to="/#contacto">Contacto</HashLink>
+            <HashLink smooth to="/#contacto" className={`${style=="dark"?"dark":"white"}`}>Contacto</HashLink>
           </li>
         </ul>
       </div>

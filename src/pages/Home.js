@@ -23,7 +23,7 @@ export default function Home(){
       <div className="wpp-button" onClick={handleRedirect}>
         <i className="bi bi-whatsapp"></i>
       </div>
-      <Header />
+      <Header style={"dark"} />
       <MainBanner />
       <div className="background" 
         style={{

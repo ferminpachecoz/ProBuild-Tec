@@ -7,7 +7,7 @@ import FormTaller from '../components/FormTaller'
 export default function ArmarTaller() {
   return (
     <>
-      <Header />
+      <Header style={"white"} />
       <LineaTitle title={"Armá tu taller"} subtitle={"Descubrí cual es tu pack ideal con el poder de la Inteligencia Artificial"} />
       <FormTaller />
       <Footer />

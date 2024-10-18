@@ -6,27 +6,27 @@ export default function Servicios() {
   let array=[
     {
       id: 1,
-      img: "https://img.freepik.com/free-vector/industry-4-0-concept-illustration_114360-25336.jpg?t=st=1728419843~exp=1728423443~hmac=ad4c80dd9571ca0d492928615df0c473d2dd6604e235029a6d005a547051268a&w=740",
-      title: "Maquinaria de Alta Tecnología",
-      description: "Ofrecemos maquinaria avanzada para la fabricación de ventanas de PVC, diseñada para maximizar la eficiencia y precisión de tu taller."
+      img: "/images/consultoria-integral.png",
+      title: "Consultoria integral",
+      description: "Ofrecemos un servicio de asesoramiento integral para aquellos que buscan emprender o mejorar su producción en el rubro de aberturas de PVC."
     },
     {
       id: 2,
-      img: "https://img.freepik.com/free-vector/online-tech-talks-concept-illustration_114360-7619.jpg?t=st=1728420050~exp=1728423650~hmac=b36530ec385dede62d7dece3fd4663be53747fc8e1ab42203dba0e642d54591f&w=740",
-      title: "Consultoría Integral",
-      description: "Asesoramos en cada paso de tu negocio, desde la selección de maquinaria hasta la optimización de procesos productivos."
+      img: "/images/optimizacion.png",
+      title: "Optimizacion de Procesos",
+      description: "Te ayudamos a mejorar la eficiencia de tu taller, desde la planificación del layout hasta la instalación de equipos que maximizan la producción."
     },
     {
       id: 3,
-      img: "https://img.freepik.com/free-vector/think-outside-box-concept-illustration_114360-15044.jpg?t=st=1728420222~exp=1728423822~hmac=fb569b837d178ae1be23a27bb1cfd9bbd6dbffca56f8442e83c68afb226d8930&w=740",
-      title: "Personalización de Soluciones",
-      description: "Adaptamos nuestras soluciones a las necesidades de tu taller, con layouts y maquinaria ajustados a tus objetivos."
+      img: "/images/proveedores-certificados.png",
+      title: "Proveedores Certificados",
+      description: "Gracias a nuestra experiencia, hemos desarrollado relaciones con proveedores de los mejores perfiles, herrajes, accesorios y vidrio para la fabricación de ventanas de PVC."
     },
     {
       id: 4,
-      img: "https://img.freepik.com/free-vector/computer-troubleshooting-concept-illustration_114360-7616.jpg?t=st=1728420514~exp=1728424114~hmac=329c0aae5d8805f5126d0ab074304b50c14ed0df513f68b2aaea5a106afd7259&w=740",
-      title: "Soporte Técnico Especializado",
-      description: "Brindamos asistencia técnica continua, asegurando que tus equipos operen al máximo rendimiento."
+      img: "/images/acompañamiento.png",
+      title: "Acompañamiento integral",
+      description: "Te acompañamos desde el inicio, asesorándote en la compra de maquinaria adecuada, y seguimos trabajando contigo a lo largo del tiempo."
     },
   ]
   return (

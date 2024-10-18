@@ -9,7 +9,7 @@ export default function Linea() {
 
   return (
     <>
-      <Header />
+      <Header style={"white"} />
       <LineaTitle />
       <LineaInfo />
       <LineaMaquinas />

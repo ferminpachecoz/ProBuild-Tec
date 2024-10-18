@@ -1,9 +1,9 @@
 .linea-info{
   padding: 5em 10em;
   .background{
-    background-image: url("https://wpriverthemes.com/synck/wp-content/uploads/2024/01/hero-overview-about.jpg");
-    height: 55vh;
-    background-size: cover;
+    background-image: url("../../public/images/Pack\ Elite\ PNG.png");
+    height: 70vh;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 10px;
@@ -34,6 +34,12 @@
 }
 @media (max-width: 480px){
   .linea-info{
-    padding: 4em 1em;
+    padding: 4em 1em 2em 1em;
+    .wrapper{
+      padding: 1em;
+      .contenedor{
+        padding: 1.5em 1em;
+      }
+    }
   }
 }

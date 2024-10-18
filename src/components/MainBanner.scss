@@ -1,20 +1,18 @@
 .main-banner{
-  background-image: url("https://hostiko.com/layout91/wp-content/uploads/2024/05/hostiko-banner-bg.png");
   background-size: cover;
-  height: 80vh;
+  background-repeat: no-repeat;
+  background-position: center left;
+  height: 100vh;
   padding: 0px;
   margin: 0px;
   padding-top: 10%;
-  .image{
-    img{
-      width: 500px;
-    }
-  }
+  box-shadow: inset 0 150px 150px rgba(0, 0, 0, 0.9),   /* Sombreado arriba */
+              inset 0 -150px 150px rgba(0, 0, 0, 0.7);
   .text{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 5em;
+    padding: 2em 2em 2em 5em;
     button{
       display: flex;
       align-items: center;
@@ -39,22 +37,22 @@
       font-size: 48px;
       font-weight: 700;
       text-transform: capitalize;
+      color: rgb(240,240,240);
     }
     p{
       color: var(--primary);
       font-size: 18px;
       margin-bottom: 1em;
+      color: rgb(240,240,240);
     }
   }
+}
+#btn{
+  width: 5% !important;
 }
 @media (max-width: 480px) {
   .main-banner{
     height: 70vh;
-    .image{
-      img{
-        width: 100%;
-      }
-    }
     .text{
       padding: 0em 0em 0em 1em;
       button{

@@ -8,11 +8,11 @@ export default function CardMaquina({maquina}) {
   
   return (
     <div className='card-maquina'>
-      <Link to={`/products/${info.id}`}>
+      <Link to={`/products/${info.id}`} target="_blank">
         <div className='image' style={{backgroundImage: `url("/products/${info.title}/${info.images[0]}")`}}>
 
         </div>
-        <p>{info.code}</p>
+        <p>{info.title}</p>
       </Link>
     </div>
   )
