@@ -5,6 +5,7 @@ import Product from './pages/Product';
 import ScrollToTop from './components/ScrollToTop';
 import Linea from './pages/Linea';
 import ArmarTaller from './pages/ArmarTaller';
+import Consultoria from './pages/Consultoria';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path='/products/:id' element={<Product />} />
         <Route path='/linea/:id' element={<Linea />} />
         <Route path='/armar-tu-taller' element={<ArmarTaller />} />
+        <Route path='/consultoria' element={<Consultoria />} />
       </Routes>
     </>
   );

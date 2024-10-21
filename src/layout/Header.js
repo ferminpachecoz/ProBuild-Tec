@@ -15,7 +15,7 @@ export default function Header({style}){
     <div className="header d-flex row-cols-2">
       <div className="logo order-1">
         <Link to="/">
-          <img src="/logobg.png" alt="logo" />
+          <img src="/Logo PNG sin fondo.png" alt="logo" />
         </Link>
       </div>
       <div className={`menu order-3 ${isMenuOpen ? "menu-open" : "menu-close"}`}>
@@ -27,7 +27,7 @@ export default function Header({style}){
             <HashLink smooth to="/#catalogos" className={`${style=="dark"?"dark":"white"}`}>Catálogos</HashLink>
           </li>
           <li className="col">
-            <HashLink smooth to="/#catalogos" className={`${style=="dark"?"dark":"white"}`}>Consultoría</HashLink>
+            <HashLink smooth to="/consultoria" className={`${style=="dark"?"dark":"white"}`}>Consultoría</HashLink>
           </li>
           <li className="col">
             <HashLink smooth to="/#paquetes" className={`${style=="dark"?"dark":"white"}`}>Paquetes</HashLink>

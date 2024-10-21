@@ -57,7 +57,7 @@ export default function Home(){
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat"
       }}>
-        <Servicios title={"¿Que servicios ofrecemos?"} subtitle={"Ofrecemos maquinaria especializada, asesoramiento técnico y capacitación para optimizar la producción de aberturas de PVC, adaptándonos a proyectos de cualquier escala."} data={arrayServicios} gif={false} />
+        <Servicios title={"¿Que servicios ofrecemos?"} subtitle={"Ofrecemos maquinaria especializada, asesoramiento técnico y capacitación para optimizar la producción de aberturas de PVC, adaptándonos a proyectos de cualquier escala."} data={arrayServicios} gif={false} rows="4" />
         <Paquetes />
       </div>
       <QuienesSomos />
