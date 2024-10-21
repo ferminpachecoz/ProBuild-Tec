@@ -17,8 +17,15 @@
       align-items: center;
       height: 200px;
       margin-bottom: 1em;
-      img{
+      .normal-png{
+        width: 150px;
+      }
+      .gif{
         width: 200px;
+      }
+      img[src$=".png"] {
+        /* Estilos para imágenes PNG */
+        width: 150px;
       }
     }
     .title{

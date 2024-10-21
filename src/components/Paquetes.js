@@ -20,6 +20,7 @@ export default function Paquetes() {
               operators={item.operatorsRequired}
               space={item.spaceRequired}
               width={"responsive-width"}
+              short_description={item.short_description}
               />
             </div>
           ))

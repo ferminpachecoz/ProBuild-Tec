@@ -6,14 +6,14 @@ import CardMaquina from "./CardMaquina.js"
 
 export default function LineaMaquinas() {
   let { id } = useParams();
-  let pack = db2.find(item=>toString(item.id) === toString(id));
+  let pack = db2.find(item=>item.id === parseInt(id));
   
   return (
     <div className='linea-maquinas'>
       <p className='sec'>Qué ofrecemos...</p>
       <div className='row row-cols-2 title'>
           <h2>todas las máquinas incluidas</h2>
-          <p>One fundamental aspect of IT services is infrastructure management. This involves the design, implementation, and maintenance of the hardware, software, networks, and servers.</p>
+          <p>Descubre todas las máquinas incluidas en nuestros packs. Equipadas con tecnología de punta para optimizar tu producción y garantizar eficiencia en cada etapa del proceso de fabricación.</p>
       </div>
       <div className='maquinas row row-cols-2 row-cols-lg-5 g-5 justify-content-start align-items-center'>
         {
@@ -26,7 +26,7 @@ export default function LineaMaquinas() {
       </div>
       <div className='row row-cols-2 title'>
         <h2>máquinas opcionales</h2>
-        <p>One fundamental aspect of IT services is infrastructure management. This involves the design, implementation, and maintenance of the hardware, software, networks, and servers.</p>
+        <p>Consulta las máquinas opcionales disponibles para personalizar tu taller. Agrega equipamiento adicional según tus necesidades para mejorar la productividad y adaptarte a los proyectos más exigentes.</p>
       </div>
       <div className='maquinas row row-cols-2 row-cols-lg-5 justify-content-start align-items-center'>
         {
