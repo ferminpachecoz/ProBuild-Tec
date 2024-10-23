@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
-import "./TodosLosProductos.scss";
+import "./ProductsTab.scss";
 import ProductCard from './ProductCard';
-import array from "../database.js"
+import array from "../database_dev.js"
 import { Link } from 'react-router-dom';
 
 function shuffleArray(array) {
@@ -20,13 +20,13 @@ export default function TodosLosProductos() {
     
   function filterElements (cat){
     let lista1 = array.filter(item=>{
-      return item.categoria == cat;
+      return item.category == cat;
     })
     setLista(lista1)
   }
   
   function handleChange (event){
-    let res = array.filter(item=> item.name.toLowerCase().includes(event.target.value.toLowerCase().trim()))
+    let res = array.filter(item=> item.title.toLowerCase().includes(event.target.value.toLowerCase().trim()))
     setResults(res)
     setInput(event.target.value)
   }
@@ -51,7 +51,7 @@ export default function TodosLosProductos() {
               {
               input.length > 0?
                 results.slice(0,5).map(item=>(
-                  <li key={item.id}><Link to={`/products/${item.id}`}>{item.name}</Link></li>
+                  <li key={item.id}><Link to={`/products/${item.id}`}>{item.title}</Link></li>
                 ))
               :results.length==0 && input.length>0?
               <li>No hay resultados...</li>
@@ -61,19 +61,18 @@ export default function TodosLosProductos() {
           </div>
           <p>CATEGORÍAS</p>
           <ul>
-            <li key={1} onClick={()=>filterElements("corte")}>CORTE</li>
-            <li key={2} onClick={()=>filterElements("Centro de Corte y Limpieza de Mecanizado")}>CENTROS DE CORTE Y LIMPIEZA DE MECANIZADO</li>
-            <li key={3} onClick={()=>filterElements("Desbarbadora")}>DESBARBADORA</li>
-            <li key={4} onClick={()=>filterElements("Fresas de Corte")}>FRESAS DE CORTE</li>
-            <li key={5} onClick={()=>filterElements("Máquina Muescadora")}>MÁQUINA MUESCADORA</li>
-            <li key={6} onClick={()=>filterElements("Atornilladora de Láminas de Apoyo")}>ATORNILLADORA DE LÁMINAS DE APOYO</li>
+            <li key={1} onClick={()=>filterElements("Corte")}>CORTE</li>
+            <li key={2} onClick={()=>filterElements("Centros De Corte Y Limpieza De Mecanizado")}>CENTROS DE CORTE Y LIMPIEZA DE MECANIZADO</li>
+            <li key={4} onClick={()=>filterElements("Fresadora de Corte")}>FRESADORAS DE CORTE</li>
+            <li key={6} onClick={()=>filterElements("Atornilladora De Laminas De Apoyo")}>ATORNILLADORA DE LÁMINAS DE APOYO</li>
             <li key={7} onClick={()=>filterElements("Soldadura")}>SOLDADURA</li>
+            <li key={8} onClick={()=>filterElements("Equipo de Apoyo")}>EQUIPO DE APOYO</li>
           </ul>
         </div>
         <div className='col-12 col-lg-8 row row-cols-1 row-cols-lg-2 g-3'>
           {
             lista.map(item=>(
-              <ProductCard key={item.id} id={item.id} name={item.name} description={item.description} image={item.image} />
+              <ProductCard key={item.id} id={item.id} name={item.title} description={item.info[0]} image={item.images[0]} />
             ))
           }
         </div>

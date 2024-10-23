@@ -35,10 +35,13 @@ export default function Header({style}){
           <li className="col">
             <HashLink smooth to="/#contacto" className={`${style=="dark"?"dark":"white"}`}>Contacto</HashLink>
           </li>
+          <li className="col">
+            <HashLink smooth to="/productos" className={`${style=="dark"?"dark":"white"}`}>Productos</HashLink>
+          </li>
         </ul>
       </div>
       <div className="burger-menu order-2">
-        <i className="bi bi-list" onClick={toggleMenu}></i>
+        <i className={`bi bi-list ${style=="dark"?"dark":"white"}`} onClick={toggleMenu}></i>
       </div>
     </div>
   )

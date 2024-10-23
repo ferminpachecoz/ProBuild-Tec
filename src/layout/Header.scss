@@ -58,10 +58,11 @@
 
 @media (max-width: 480px) {
   .header{
-    padding: 1em 2em 1em 1em;
+    padding: 0em;
     flex-wrap: wrap;
     .logo{
       width: 40%;
+      padding-left: 1em;
       img{
         width: 100%;
         margin-left: 0;
@@ -74,6 +75,12 @@
         flex-direction: column !important;
         li{
           margin-bottom: 1em;
+          a{
+            color: black;
+          }
+          .dark{
+            color: black;
+          }
         }
       }
     }
@@ -89,8 +96,12 @@
       display: flex;
       justify-content: end;
       align-items: center;
+      padding-right: 1em;
       i{
         font-size: 30px;
+      }
+      .dark{
+        color: white;
       }
     }
   }

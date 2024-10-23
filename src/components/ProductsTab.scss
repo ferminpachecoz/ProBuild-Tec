@@ -1,5 +1,5 @@
 .todos-los-productos{
-  padding: 4em 0em;
+  padding: 12em 0em 2em 0em;
   h1{
     text-align: center;
     color: var(--blue);
@@ -57,6 +57,7 @@
       font-weight: 600;
     }
     ul{
+      width: 100%;
       li{
         margin: 1em 0em;
         color: rgb(70, 70, 70);
@@ -70,6 +71,6 @@
 }
 @media (max-width: 480px) {
   .todos-los-productos{
-    
+    padding: 7em 0em 2em 0em;
   }
 }

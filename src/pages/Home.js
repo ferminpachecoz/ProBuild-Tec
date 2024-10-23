@@ -2,8 +2,6 @@ import React from "react";
 import Header from "../layout/Header";
 import MainBanner from "../components/MainBanner";
 import QuienesSomos from "../components/QuienesSomos";
-import MasVendidos from "../components/MasVendidos";
-import TodosLosProductos from "../components/TodosLosProductos";
 import Footer from "../layout/Footer";
 import Servicios from "../components/Servicios";
 import Paquetes from "../components/Paquetes";

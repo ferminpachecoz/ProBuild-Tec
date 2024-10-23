@@ -7,10 +7,10 @@ export default function ProductCard({id, name, description, image}) {
     <div className='prod-card col'>
       <Link className='anchor' to={`/products/${id}`}>
         <div className='product-card'>
-          <div className='img' style={{backgroundImage: `url('products/${image}')`}}></div>
+          <div className='img' style={{backgroundImage: `url('/products/${name}/${image}')`}}></div>
           <div className='wrapper'>
             <p className='name'>{name}</p>
-            <p className='description'>{description}</p>
+            <p className='description' dangerouslySetInnerHTML={{ __html: description }}></p>
           </div>
         </div>
       </Link>
