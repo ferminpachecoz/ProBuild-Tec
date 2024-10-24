@@ -15,7 +15,7 @@ export default function Header({style}){
     <div className="header d-flex row-cols-2">
       <div className="logo order-1">
         <Link aria-label="Link to Home section" to="/">
-          <img src="/Logo PNG sin fondo.png" alt="ProBuild Logo" />
+          <img src="/Logo sin fondo PNG.png" alt="ProBuild Logo" />
         </Link>
       </div>
       <div className={`menu order-3 ${isMenuOpen ? "menu-open" : "menu-close"}`}>

@@ -1,18 +1,27 @@
 import React from 'react';
 import "./Slides.scss";
 
-export default function Slides({image, title, subtitle, callToAction}) {
+export default function Slides({imageDesktop, imageMovil, title, subtitle, callToAction}) {
   return (
-    <div className='slides row' style={{backgroundImage: `url(${image})`}}>
+    <picture className='slides row' >
+      <source
+        media="(max-width: 768px)"
+        srcSet={imageMovil}
+      />
+      <img
+        src={imageDesktop}
+        className="d-block w-100"
+        alt="Imagen 3"
+      />
       <div className='text col-12 col-lg-6'>
         <h1>{title}</h1>
-        <p>{subtitle}</p>
+        <h2>{subtitle}</h2>
         <div className='center'>
           <button>
             <p>{callToAction}</p> 
           </button>
         </div>
       </div>
-    </div>
+    </picture>
   )
 }
