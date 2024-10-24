@@ -32,7 +32,7 @@ export default function Catalogos() {
                 </div>
                 <p>{item.name}</p>
                 <span className='d-flex justify-content-center'>
-                  <a href={item.link}>
+                  <a href={item.link} aria-label='Link to catalogue PDF'>
                     <p>Ver</p>
                     <i className="bi bi-download"></i>
                   </a>

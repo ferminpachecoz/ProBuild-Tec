@@ -8,7 +8,7 @@ export default function CardMaquina({maquina}) {
   
   return (
     <div className='card-maquina'>
-      <Link to={`/products/${info.id}`} target="_blank">
+      <Link to={`/products/${info.id}`} target="_blank" aria-label='Link to Product Detail'>
         <div className='image' style={{backgroundImage: `url("/products/${info.title}/${info.images[0]}")`}}>
 
         </div>

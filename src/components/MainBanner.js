@@ -7,21 +7,21 @@ export default function MainBanner(){
   let array=[
     {
       img: "/images/banner-1.jpeg.jpg",
-      title: "Lorem ipsum dolor sit amet, consectetur",
-      subtitle: "Duis non enim auctor justo mollis imperdiet. In imperdiet arcu at elementum elementum. Nulla eget porta justo.",
-      callToAction: "lorem ipsum"
+      title: "¿Estás listo para optimizar tu producción?",
+      subtitle: "Arma tu taller ideal en solo unos clics. Descubre qué pack de maquinaria se adapta mejor a tus necesidades ingresando los detalles de tu taller",
+      callToAction: "Arma tu Taller Ahora"
     },
     {
       img: "/images/banner-2.jpeg",
-      title: "Lorem ipsum dolor sit amet, consectetur 111",
-      subtitle: "Duis non enim auctor justo mollis imperdiet. In imperdiet arcu at elementum elementum. Nulla eget porta justo.",
-      callToAction: "lorem ipsum"
+      title: "No solo vendemos máquinas, somos tu socio en el crecimiento",
+      subtitle: "Ofrecemos consultoría integral y asesoramiento personalizado para que optimices cada etapa de tu producción. Desde proveedores hasta automatización, te acompañamos en todo el proceso.",
+      callToAction: "Descubre Nuestra Consultoría"
     },
     {
       img: "/images/banner-1.jpeg.jpg",
-      title: "Lorem ipsum dolor sit amet, consectetur 222",
-      subtitle: "Duis non enim auctor justo mollis imperdiet. In imperdiet arcu at elementum elementum. Nulla eget porta justo.",
-      callToAction: "lorem ipsum"
+      title: "Tecnología de Vanguardia para tu Taller",
+      subtitle: "Descubre nuestros packs de maquinaria diseñados para potenciar la producción de aberturas de PVC. Innovación y eficiencia en cada solución.",
+      callToAction: "Ver Packs de Maquinaria"
     },
     
   ]
