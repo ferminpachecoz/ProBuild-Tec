@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import "./FormTaller.scss";
 import db2 from "../database2.js";
 import CardPaquete from './CardPaquete';
+import emailjs from 'emailjs-com';
 
 export default function FormTaller() {
   const [formValues, setFormValues] = useState({
@@ -9,6 +10,21 @@ export default function FormTaller() {
     superficie: "",
     operadores: "",
   });
+
+  const sendEmail = (nombre, apellido, empresa, telefono) => {
+    emailjs.send('service_pl4diqb', 'template_o2bfpcj', {
+      nombre: nombre,
+      apellido: apellido,
+      empresa: empresa,
+      telefono: telefono,
+      to_email: 'ferminpachecozapiola@gmail.com'
+    }, 'UQBaW7DPs73e_9TY3')
+    .then((response) => {
+      console.log('Correo enviado con éxito!', response.status, response.text);
+    }, (error) => {
+      console.log('Error al enviar el correo:', error);
+    });
+  };
 
   // Función generalizada para manejar cambios en cualquier input
   const handleChange = (event) => {
@@ -36,7 +52,8 @@ export default function FormTaller() {
     setTimeout(() => {
       // Extraer los valores del formulario
       const { produccion, superficie, operadores } = formValues;
-  
+      const { nombre, apellido, empresa, telefono } = formValues;
+      sendEmail(nombre, apellido, empresa, telefono);
       // Convertir valores a números
       const prodValue = parseInt(produccion);
       const superficieValue = parseInt(superficie);

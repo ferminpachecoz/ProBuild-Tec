@@ -6,7 +6,7 @@ export default function CardPaquete({id, image, title, short_description, produc
   return (
     <div className='paquete'>
       <div className='img-container'>
-        <img src={image} alt={title} className={`${width}`} />
+        <img src={image} loading='lazy' alt={title} className={`${width}`} />
       </div>
       <p className='title'>{title}</p>
       <p className='description'>{short_description}</p>
