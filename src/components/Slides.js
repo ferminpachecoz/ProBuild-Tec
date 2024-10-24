@@ -10,8 +10,7 @@ export default function Slides({imageDesktop, imageMovil, title, subtitle, callT
       />
       <img
         src={imageDesktop}
-        className="d-block w-100"
-        alt="Imagen 3"
+        alt={subtitle}
         loading={id==0?"eager":"lazy"}
       />
       <div className='text col-12 col-lg-6'>
