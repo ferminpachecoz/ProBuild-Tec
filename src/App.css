@@ -4,6 +4,7 @@ body{
   font-optical-sizing: auto;
   overflow-x: hidden;
   position: relative;
+  font-display: swap;
 }
 :root {
   --primary: #232E3D;
