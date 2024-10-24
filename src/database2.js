@@ -9,7 +9,7 @@ let db =[
     short_description: "Comienza tu taller con maquinaria básica y flexible. Ideal para iniciar en el rubro con capacidad para 33 ventanas diarias.",
     machines: ["ACK 420 S", "CRM 201S", "KM 215 S", "SDT 275", "TK 503", "CA 601", "CK 412"],
     additionals: ["VP 1000", "WB 4000", "SKN 301", "GPT 1000"],
-    image: "/images/Pack Inicial PNG.png"
+    image: "/images/Pack Inicial PNG.webp"
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ let db =[
     short_description: "Optimiza tu producción con cortadoras y soldadoras de doble cabezal. Perfecto para fabricar 44 ventanas por día con mayor eficiencia.",
     machines: ["DC 421 PBS", "FR 225 S", "ST 264", "KM 215 S", "SDT 275", "SM 201", "DK 502", "CK 412"],
     additionals: ["VP 1000", "HP 1000", "WB 4000", "NSM 352", "SKN 301", "GPT 1000"],
-    image: "/images/Pack semi-avanzado PNG.png"
+    image: "/images/Pack semi-avanzado PNG.webp"
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ let db =[
     short_description: "Automatiza tu producción y aumenta la capacidad a 110 ventanas diarias. Equipado con tecnología avanzada y sistemas de etiquetado.",
     machines: ["DC 421 PBS","FR 226 S","ST 264","KM 215 S","SDT 275","CCL 1660","NSM 352","CK 412"],
     additionals: ["VP 1000","WB 4000","SKN 301","GPT 1000"],
-    image: "/images/Pack avanzado PNG.png"
+    image: "/images/Pack avanzado PNG.webp"
   },
   {
     id: 4,
@@ -45,7 +45,7 @@ let db =[
     short_description: "Máxima tecnología para alta producción. Este pack automatiza completamente tu taller, permitiéndote fabricar 154 ventanas diarias.",
     machines: ["PIM 6509","SM 1000","MEM 128","SDT 280","CCL 1660","NSM 353","SKN 301","CK 412"],
     additionals: ["VP 1000","HP 1000","GPT 1000", "PT 1000","WB 4000"],
-    image: "/images/Pack Elite PNG.png"
+    image: "/images/Pack Elite PNG.webp"
   }
 ]
 export default db;

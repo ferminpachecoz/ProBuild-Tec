@@ -19,25 +19,25 @@ export default function Home(){
   let arrayServicios=[
     {
       id: 1,
-      img: "/images/consultoria-integral.png",
+      img: "/images/consultoria-integral.webp",
       title: "Consultoria integral",
       description: "Ofrecemos un servicio de asesoramiento integral para aquellos que buscan emprender o mejorar su producción en el rubro de aberturas de PVC."
     },
     {
       id: 2,
-      img: "/images/optimizacion.png",
+      img: "/images/optimizacion.webp",
       title: "Optimizacion de Procesos",
       description: "Te ayudamos a mejorar la eficiencia de tu taller, desde la planificación del layout hasta la instalación de equipos que maximizan la producción."
     },
     {
       id: 3,
-      img: "/images/proveedores-certificados.png",
+      img: "/images/proveedores-certificados.webp",
       title: "Proveedores Certificados",
       description: "Gracias a nuestra experiencia, hemos desarrollado relaciones con proveedores de los mejores perfiles, herrajes, accesorios y vidrio para la fabricación de ventanas de PVC."
     },
     {
       id: 4,
-      img: "/images/acompañamiento.png",
+      img: "/images/acompañamiento.webp",
       title: "Acompañamiento integral",
       description: "Te acompañamos desde el inicio, asesorándote en la compra de maquinaria adecuada, y seguimos trabajando contigo a lo largo del tiempo."
     },

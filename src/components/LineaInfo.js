@@ -1,10 +1,10 @@
 import React from 'react';
 import "./LineaInfo.scss";
 
-export default function LineaInfo({production, description, space, operators}) {
+export default function LineaInfo({production, description, space, operators, image}) {
   return (
     <div className='linea-info'>
-      <div className='background'>
+      <div className='background' style={{backgroundImage: `url("${image}")`}}>
 
       </div>
       <div className='wrapper'>
