@@ -20,8 +20,8 @@ export default function MainBanner(){
       callToAction: "Descubre Nuestra Consultoría"
     },
     {
-      imgDesktop: "/images/banner1-desktop.jpg",
-      imgMovil: "/images/banner1-movil.jpg",
+      imgDesktop: "/images/banner3-desktop.jpeg",
+      imgMovil: "/images/banner3-movil.jpeg",
       title: "Tecnología de Vanguardia para tu Taller",
       subtitle: "Descubre nuestros packs de maquinaria diseñados para potenciar la producción de aberturas de PVC. Innovación y eficiencia en cada solución.",
       callToAction: "Ver Packs de Maquinaria"
@@ -34,7 +34,7 @@ export default function MainBanner(){
         {
           array.map((item, index)=>(
             <div className={`carousel-item ${index==0?'active':''}`} data-bs-interval="10000" key={index}>
-              <Slides imageMovil={item.imgMovil} imageDesktop={item.imgDesktop} title={item.title} subtitle={item.subtitle} callToAction={item.callToAction} />
+              <Slides imageMovil={item.imgMovil} imageDesktop={item.imgDesktop} title={item.title} subtitle={item.subtitle} callToAction={item.callToAction} id={index} />
             </div>
           ))
         }
