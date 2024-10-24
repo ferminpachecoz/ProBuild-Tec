@@ -28,7 +28,7 @@ export default function Catalogos() {
             <div className='wrapper' key={index}>
               <div className='card'>
                 <div className='img-container'>
-                  <img loading='lazy' src={item.img} alt={item.name} />
+                  <img loading='lazy' src={item.img} alt={"Image about "+item.name} />
                 </div>
                 <p>{item.name}</p>
                 <span className='d-flex justify-content-center'>

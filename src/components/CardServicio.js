@@ -18,9 +18,9 @@ export default function CardServicio({image, title, description, gif}) {
       <div className='sub-container'>
         <div className='img-container'>
           {gif?
-            <img className='gif' src={imageSrc} loading='lazy' alt="Icon" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} />
+            <img className='gif' src={imageSrc} loading='lazy' alt="Descriptive Icon for services" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} />
           :
-            <img className='normal-png' loading='lazy' src={image} alt="Icon" />
+            <img className='normal-png' loading='lazy' src={image} alt="Descriptive Icon for services" />
           }
         </div>
         <p className='title'>{title}</p>

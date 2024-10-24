@@ -6,7 +6,7 @@ import Slides from './Slides';
 export default function MainBanner(){
   let array=[
     {
-      img: "/images/banner-1.jpeg.jpg",
+      img: "/images/prueba-banner-1.jpg",
       title: "¿Estás listo para optimizar tu producción?",
       subtitle: "Arma tu taller ideal en solo unos clics. Descubre qué pack de maquinaria se adapta mejor a tus necesidades ingresando los detalles de tu taller",
       callToAction: "Arma tu Taller Ahora"

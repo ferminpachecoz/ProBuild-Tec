@@ -6,7 +6,7 @@ export default function CardPaquete({id, image, title, short_description, produc
   return (
     <div className='paquete'>
       <div className='img-container'>
-        <img src={image} loading='lazy' alt={title} className={`${width}`} />
+        <img src={image} loading='lazy' alt={short_description} className={`${width}`} />
       </div>
       <p className='title'>{title}</p>
       <p className='description'>{short_description}</p>
@@ -24,7 +24,7 @@ export default function CardPaquete({id, image, title, short_description, produc
           <p>{space} mts <strong>cuadrados</strong></p>
         </span>
       </div>
-      <Link to={`/linea/${id}`}>Mas información</Link>
+      <Link aria-label="More info about packages" to={`/linea/${id}`}>Mas información</Link>
     </div>
   )
 }

@@ -51,7 +51,7 @@ export default function TodosLosProductos() {
               {
               input.length > 0?
                 results.slice(0,5).map(item=>(
-                  <li key={item.id}><Link to={`/products/${item.id}`}>{item.title}</Link></li>
+                  <li key={item.id}><Link aria-label="Link to product details" to={`/products/${item.id}`}>{item.title}</Link></li>
                 ))
               :results.length==0 && input.length>0?
               <li>No hay resultados...</li>

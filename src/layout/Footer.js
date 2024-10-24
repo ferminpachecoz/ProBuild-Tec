@@ -12,10 +12,10 @@ export default function Footer() {
         <div className='col-12 col-lg menu'>
           <h4>MENÚ RÁPIDO</h4>
           <ul>
-            <li><Link to="/"></Link></li>
-            <li><Link to="/">Nosotros</Link></li>
-            <li><Link to="/">Contacto</Link></li>
-            <li><Link to="/">Nuestro Equipos</Link></li>
+            <li><Link aria-label="Link to Home page" to="/"></Link></li>
+            <li><Link aria-label="Link to About Us section" to="/">Nosotros</Link></li>
+            <li><Link aria-label="Link to Contact section" to="/">Contacto</Link></li>
+            <li><Link aria-label="Link to Our Team section" to="/">Nuestro Equipos</Link></li>
           </ul>
         </div>
         <div className='col-12 col-lg contact'>
