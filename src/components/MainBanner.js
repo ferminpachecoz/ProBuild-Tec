@@ -1,9 +1,19 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import "./MainBanner.scss";
 import Slides from './Slides';
 
 
 export default function MainBanner(){
+  const [mobileBg, setMobileBg] = useState();
+
+  useEffect(()=>{
+    if (window.innerWidth <= 768) {
+      setMobileBg(true); // Imagen para mobile
+    } else {
+      setMobileBg(false); // Imagen para desktop
+    }
+  },[])
+
   let array=[
     {
       imgDesktop: "/images/banners/banner1-desktop.jpeg",
@@ -34,7 +44,7 @@ export default function MainBanner(){
         {
           array.map((item, index)=>(
             <div className={`carousel-item ${index==0?'active':''}`} data-bs-interval="10000" key={index}>
-              <Slides imageMovil={item.imgMovil} imageDesktop={item.imgDesktop} title={item.title} subtitle={item.subtitle} callToAction={item.callToAction} id={index} />
+              <Slides imageMovil={item.imgMovil} imageDesktop={item.imgDesktop} title={item.title} subtitle={item.subtitle} callToAction={item.callToAction} mobileBg={mobileBg} />
             </div>
           ))
         }

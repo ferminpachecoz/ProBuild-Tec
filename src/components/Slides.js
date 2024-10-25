@@ -1,27 +1,20 @@
 import React from 'react';
 import "./Slides.scss";
 
-export default function Slides({imageDesktop, imageMovil, title, subtitle, callToAction, id}) {
+export default function Slides({imageDesktop, imageMovil, title, subtitle, callToAction, mobileBg}) {
   return (
-    <picture className='slides row' >
-      <source
-        media="(max-width: 768px)"
-        srcSet={imageMovil}
-      />
-      <img
-        src={imageDesktop}
-        alt={subtitle}
-        loading={id==0?"eager":"lazy"}
-      />
-      <div className='text col-12 col-lg-6'>
-        <h1>{title}</h1>
-        <h2>{subtitle}</h2>
-        <div className='center'>
-          <button>
-            <p>{callToAction}</p> 
-          </button>
+    <div className='slides row' style={{backgroundImage: `url(${mobileBg?imageMovil:imageDesktop})`}}>
+      <div className='shadow'>
+        <div className='text col-12 col-lg-7'>
+          <h1>{title}</h1>
+          <h2>{subtitle}</h2>
+          <div className='center'>
+            <button>
+              <p>{callToAction}</p> 
+            </button>
+          </div>
         </div>
       </div>
-    </picture>
+    </div>
   )
 }

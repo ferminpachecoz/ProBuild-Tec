@@ -34,13 +34,13 @@ export default function Consultoria() {
     },
     {
       id: 5,
-      img: "/images/optimizacion.png",
+      img: "/images/optimizacion.webp",
       title: "Diseño de Identidad Digital",
       description: "Nos encargamos de diseñar logos, banners e información digital personalizada para tu negocio, asegurando una presencia online coherente y efectiva."
     },
     {
       id: 6,
-      img: "/images/optimizacion.png",
+      img: "/images/optimizacion.webp",
       title: "Consultoría en Marketing y Capacitación para Ventas",
       description: "Proporcionamos consultoría en marketing digital y capacitaciones para tu equipo de ventas, optimizando tu estrategia comercial para aumentar tu visibilidad y atraer más clientes."
     },
@@ -52,14 +52,15 @@ export default function Consultoria() {
       <BannerAbout 
         title={"Consultoría Integral Pro Build"} 
         text={"En Pro Build, nuestra consultoría está diseñada para impulsar el éxito de los fabricantes de aberturas de PVC y maximizar el rendimiento de sus talleres. Desde la primera consulta, trabajamos estrechamente para comprender a fondo los objetivos y necesidades de cada cliente."}
-        image={"/images/acompañamiento.webp"}
-        col1={"col-lg-6"}
-        col2={"col-lg-6"}
+        image={"/images/consultoria/Logo fondo negro PNG.png"}
+        col1={"col-lg-7"}
+        col2={"col-lg-5"}
+        size={"cover"}
       />
       <BannerAbout 
         title={"Desarrollo y optimización de talleres"} 
         text={"Acompañamos a nuestros clientes en cada fase del desarrollo, abarcando el diseño de layout de talleres, procesos de fabricación y equipamiento, con el objetivo de lograr la máxima eficiencia y productividad en la fabricación de aberturas y obtener el mejor precio del mercado."}
-        image={"/images/consultoria-integral.webp"}
+        image={"/images/consultoria/Consultoria.jpeg"}
         col1={"col-lg-6"}
         col2={"col-lg-6"}
         reverse={true}

@@ -14,7 +14,7 @@ export default function Linea() {
     <>
       <Header style={"white"} />
       <LineaTitle />
-      <LineaInfo description={linea.description} operators={linea.operatorsRequired} space={linea.spaceRequired} production={linea.production} image={linea.image} />
+      <LineaInfo description={linea.description} operators={linea.operatorsRequired} space={linea.spaceRequired} production={linea.production} image={linea.image} electricidadRequerida={linea.electricidadRequerida} aireComprimido={linea.aireComprimido} />
       <LineaMaquinas />
       <Footer />
     </>
