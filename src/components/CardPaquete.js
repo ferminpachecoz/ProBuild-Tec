@@ -24,7 +24,7 @@ export default function CardPaquete({id, image, title, short_description, produc
           <p>{space} mts <strong>cuadrados</strong></p>
         </span>
       </div>
-      <Link aria-label="More info about packages" to={`/linea/${id}`}>Mas información</Link>
+      <Link aria-label="More info about packages" to={`/nuestros-paquetes-personalizados/${id}`}>Mas información</Link>
     </div>
   )
 }
