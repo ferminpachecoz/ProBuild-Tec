@@ -50,31 +50,7 @@
 #btn{
   width: 5% !important;
 }
-@media (max-width: 480px) {
-  .main-banner{
-    height: 70vh;
-    .text{
-      padding: 0em 0em 0em 1em;
-      button{
-        font-size: 12px;
-        padding: 0.5em;
-        text-transform: uppercase;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        p{
-          margin: 0px;
-        }
-      }
-      h1{
-        font-size: 24px;
-      }
-      h2{
-        font-size: 20px;
-      }
-    }
-  }
-}
+
 @media (max-width: 480px){
   .main-banner{
     height: auto;
@@ -94,12 +70,12 @@
       }
       h1{
         text-align: center;
-        font-size: 32px;
+        font-size: 38px;
         margin-bottom: 1em;
       }
       p{
         text-align: center;
-        font-size: 14px;
+        font-size: 16px;
         margin-bottom: 2em;
       }
     }
