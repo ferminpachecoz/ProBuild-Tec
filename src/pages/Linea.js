@@ -8,14 +8,20 @@ import array from "../database2.js"
 import { useParams } from 'react-router-dom';
 
 export default function Linea() {
-  const { id } = useParams();
-  let linea = array.find(item=>item.id==id)
+  const { title } = useParams();
+  let a = title.split("-")
+  let b = a.join(" ")
+  let linea = array.find(item=>item.name==b)
+  console.log(b);
+  
+  console.log(linea);
+  
   return (
     <>
       <Header style={"white"} />
-      <LineaTitle />
+      <LineaTitle title={linea.name} subtitle={linea.short_description} />
       <LineaInfo description={linea.description} operators={linea.operatorsRequired} space={linea.spaceRequired} production={linea.production} image={linea.image} electricidadRequerida={linea.electricidadRequerida} aireComprimido={linea.aireComprimido} />
-      <LineaMaquinas />
+      <LineaMaquinas principales={linea.machines} additionals={linea.additionals} />
       <Footer />
     </>
   )

@@ -1,13 +1,8 @@
 import React from 'react';
 import "./LineaMaquinas.scss";
-import { useParams } from 'react-router-dom';
-import db2 from "../database2.js";
 import CardMaquina from "./CardMaquina.js"
 
-export default function LineaMaquinas() {
-  let { id } = useParams();
-  let pack = db2.find(item=>item.id === parseInt(id));
-  
+export default function LineaMaquinas({principales, additionals}) {
   return (
     <div className='linea-maquinas'>
       <p className='sec'>Qué ofrecemos...</p>
@@ -17,7 +12,7 @@ export default function LineaMaquinas() {
       </div>
       <div className='maquinas row row-cols-2 row-cols-lg-5 g-5 justify-content-start align-items-center'>
         {
-          pack.machines.map((item, index)=>(
+          principales.map((item, index)=>(
             <div key={index}>
               <CardMaquina maquina={item} />
             </div>
@@ -30,7 +25,7 @@ export default function LineaMaquinas() {
       </div>
       <div className='maquinas row row-cols-2 row-cols-lg-5 justify-content-start align-items-center'>
         {
-          pack.additionals.map((item, index)=>(
+          additionals.map((item, index)=>(
             <div key={index}>
               <CardMaquina maquina={item} />
             </div>

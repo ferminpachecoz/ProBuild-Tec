@@ -1,7 +1,7 @@
 let db =[
   {
     id: 1,
-    name: "Pack Inicial",
+    name: "pack inicial",
     spaceRequired: 300,
     operatorsRequired: "7-10",
     production: "33",
@@ -15,7 +15,7 @@ let db =[
   },
   {
     id: 2,
-    name: "Pack Semi-Avanzado",
+    name: "pack semi avanzado",
     spaceRequired: 300,
     operatorsRequired: "7-10",
     production: "44",
@@ -29,7 +29,7 @@ let db =[
   },
   {
     id: 3,
-    name: "Pack Avanzado",
+    name: "pack avanzado",
     spaceRequired: 660,
     operatorsRequired: "9",
     production: "110",
@@ -43,7 +43,7 @@ let db =[
   },
   {
     id: 4,
-    name: "Pack Elite",
+    name: "pack elite",
     spaceRequired: 550,
     operatorsRequired: "8-10",
     production: "154",

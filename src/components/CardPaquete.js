@@ -3,6 +3,10 @@ import "./CardPaquete.scss";
 import { Link } from 'react-router-dom';
 
 export default function CardPaquete({id, image, title, short_description, production, operators, space, width}) {
+  let a = title.toLowerCase()
+  let b = a.split(" ")
+  let linkPack = b.join("-")
+  
   return (
     <div className='paquete'>
       <div className='img-container'>
@@ -24,7 +28,7 @@ export default function CardPaquete({id, image, title, short_description, produc
           <p>{space} mts <strong>cuadrados</strong></p>
         </span>
       </div>
-      <Link aria-label="More info about the packages that we offer" to={`/nuestros-paquetes-personalizados/${id}`}>Mas información</Link>
+      <Link aria-label="More info about the packages that we offer" to={`/nuestros-paquetes-personalizados/${linkPack}`}>Mas información</Link>
     </div>
   )
 }
