@@ -25,7 +25,7 @@ export default function Footer() {
         </div>
         <div className='col-12 col-lg'>
           <h4>SEGUINOS</h4>
-          <Link to="/" className='icon-a'><i className="bi bi-whatsapp"></i></Link>
+          <Link to="/" aria-label='Link to our WhatsApp through website' className='icon-a'><i className="bi bi-whatsapp"></i></Link>
         </div>
       </div>
       <div className='copyright'>
