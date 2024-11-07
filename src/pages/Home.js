@@ -27,7 +27,7 @@ export default function Home(){
       id: 2,
       img: "/images/optimizacion.webp",
       title: "Optimizacion de Procesos",
-      description: "Te ayudamos a mejorar la eficiencia de tu taller, desde la planificación del layout hasta la instalación de equipos que maximizan la producción."
+      description: "Te ayudamos a mejorar la eficiencia de tu fábrica, desde la planificación del layout hasta la instalación de equipos que maximizan la producción."
     },
     {
       id: 3,

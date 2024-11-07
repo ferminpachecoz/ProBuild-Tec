@@ -21,7 +21,7 @@ export default function Header({style}){
       <div className={`menu order-3 ${isMenuOpen ? "menu-open" : "menu-close"}`}>
         <ul className="row justify-content-center h-100 align-items-center">
           <li className="col">
-            <Link aria-label="Link to Make your Taller page" to="/armar-tu-taller" className={`${style=="dark"?"dark":"white"}`}>Armá tu taller</Link>
+            <Link aria-label="Link to Make your Taller page" to="/armar-tu-taller" className={`${style=="dark"?"dark":"white"}`}>Armá tu fábrica</Link>
           </li>
           <li className="col">
             <HashLink aria-label="Link to Catalogos section" smooth to="/#catalogos" className={`${style=="dark"?"dark":"white"}`}>Catálogos</HashLink>
