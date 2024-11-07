@@ -59,7 +59,7 @@ export default function Home(){
         <Paquetes />
       </div>
       <QuienesSomos />
-      <NuestroCompromiso />
+      {/* <NuestroCompromiso /> */}
       <Catalogos />
       <Contacto />
       <Footer />
