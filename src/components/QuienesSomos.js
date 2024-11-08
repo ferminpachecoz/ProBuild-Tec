@@ -47,7 +47,8 @@ export default function QuienesSomos() {
         title={"Nuestro Compromiso"}
         text={"Nos comprometemos a brindar un servicio altamente personalizado, adaptando nuestra oferta a las particularidades de cada proyecto."}
         bg={false}
-        image={"/images/ejemplo2.jpg"}
+        image={"/images/nuestro-compromiso.webp"}
+        size={"cover"}
         reverse={false}
         col1={"col-lg-7"}
         col2={"col-lg-5"}
