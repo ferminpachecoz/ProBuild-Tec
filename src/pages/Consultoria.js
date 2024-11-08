@@ -10,13 +10,13 @@ export default function Consultoria() {
   let data=[
     {
       id: 1,
-      img: "/images/optimizacion.webp",
+      img: "/images/consultoria/auditorias.png",
       title: "Auditorías Técnicas de Maquinaria",
       description: "Realizamos auditorías periódicas para evaluar el rendimiento de la maquinaria, asegurando que funcionen a su máxima capacidad. Identificamos áreas de mejora y prevenimos posibles fallos para mantener la producción en marcha sin interrupciones."
     },
     {
       id: 2,
-      img: "/images/optimizacion.webp",
+      img: "/images/consultoria/planificacion.png",
       title: "Planificación de Crecimiento del Taller",
       description: "Ofrecemos asesoramiento personalizado para la expansión de talleres a medida que tu negocio crece. Desde la compra de nueva maquinaria hasta la optimización del layout del taller, te acompañamos en cada etapa del crecimiento, asegurando que tu producción esté siempre al nivel de la demanda."
     },
