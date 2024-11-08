@@ -28,7 +28,7 @@ export default function QuienesSomos() {
       title={"Nosotros"} 
       text={"En ProBuild, somos un equipo de especialistas comprometidos con la innovación y la excelencia en el suministro de soluciones para la fabricación de ventanas de PVC. Con una sólida trayectoria en el mercado, nos hemos posicionado como líderes en la provisión de maquinaria de alta tecnología y consultoría integral para talleres que buscan optimizar sus procesos productivos."} 
       bg={false}
-      image={"/images/consultoria/Logo fondo negro PNG.png"}
+      image={"/images/consultoria/Logo fondo negro PNG.webp"}
       reverse={false}
       col1={"col-lg-7"}
       col2={"col-lg-5"}
