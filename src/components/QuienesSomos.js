@@ -38,7 +38,7 @@ export default function QuienesSomos() {
       title={""} 
       text={"Nuestra empresa se destaca por ofrecer un servicio integral, no solo proveyendo maquinaria avanzada, sino también brindando asesoramiento estratégico en la selección de proveedores, herrajes, vidrio y todos los componentes necesarios para la fabricación de ventanas de calidad. Con un enfoque en la eficiencia operativa y el soporte personalizado, en ProBuild Tec trabajamos mano a mano con nuestros clientes para comprender sus necesidades específicas y desarrollar soluciones a medida que impulsen su crecimiento."} 
       bg={true}
-      image={"/images/ejemplo1.png"}
+      image={"/images/consultoria/Consultoria.png"}
       reverse={true}
       col1={"col-lg-6"}
       col2={"col-lg-6"}

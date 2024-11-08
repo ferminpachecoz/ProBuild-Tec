@@ -22,25 +22,25 @@ export default function Consultoria() {
     },
     {
       id: 3,
-      img: "/images/optimizacion.webp",
+      img: "/images/consultoria/contactos.webp",
       title: "Acceso a Red de Contactos",
       description: "Facilita tu expansión y crecimiento con nuestro acceso exclusivo a una red de proveedores del sector que pueden ayudarte a colaborar, obtener materiales clave o establecer nuevas alianzas estratégicas en el rubro de las aberturas."
     },
     {
       id: 4,
-      img: "/images/optimizacion.webp",
+      img: "/images/consultoria/propuesta.webp",
       title: "Creación de la Propuesta de Valor",
       description: "Te ayudamos a definir la propuesta de valor de tu empresa, clave para destacarse en el mercado competitivo de aberturas y construcción."
     },
     {
       id: 5,
-      img: "/images/optimizacion.webp",
+      img: "/images/consultoria/diseño.webp",
       title: "Diseño de Identidad Digital",
       description: "Nos encargamos de diseñar logos, banners e información digital personalizada para tu negocio, asegurando una presencia online coherente y efectiva."
     },
     {
       id: 6,
-      img: "/images/optimizacion.webp",
+      img: "/images/consultoria/marketing.webp",
       title: "Consultoría en Marketing y Capacitación para Ventas",
       description: "Proporcionamos consultoría en marketing digital y capacitaciones para tu equipo de ventas, optimizando tu estrategia comercial para aumentar tu visibilidad y atraer más clientes."
     },
@@ -60,7 +60,7 @@ export default function Consultoria() {
       <BannerAbout 
         title={"Desarrollo y optimización de talleres"} 
         text={"Acompañamos a nuestros clientes en cada fase del desarrollo, abarcando el diseño de layout de talleres, procesos de fabricación y equipamiento, con el objetivo de lograr la máxima eficiencia y productividad en la fabricación de aberturas y obtener el mejor precio del mercado."}
-        image={"/images/consultoria/Consultoria.jpeg"}
+        image={"/images/consultoria/Consultoria.png"}
         col1={"col-lg-6"}
         col2={"col-lg-6"}
         reverse={true}
