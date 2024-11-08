@@ -29,7 +29,8 @@ export default function ArmarTaller() {
   return (
     <>
       <Header style={"white"} />
-      <LineaTitle title={"Armá tu taller"} subtitle={"¿No sabes qué pack de maquinaria se adapta mejor a tu taller de aberturas de PVC? ¡No te preocupes! En Pro Build, te ofrecemos una herramienta personalizada para que puedas armar tu taller ideal en función de tus necesidades y objetivos de producción. "} />
+      {/* <LineaTitle title={"Armá tu taller"} subtitle={"¿No sabes qué pack de maquinaria se adapta mejor a tu taller de aberturas de PVC? ¡No te preocupes! En Pro Build, te ofrecemos una herramienta personalizada para que puedas armar tu taller ideal en función de tus necesidades y objetivos de producción. "} /> */}
+      <LineaTitle title={"Armá tu taller"} subtitle={"¿No sabes qué pack de maquinaria se adapta mejor a tu taller de aberturas de PVC?"} />
       <Servicios title={"¿Cómo funciona?"} subtitle={"Con solo ingresar algunos datos clave, como la superficie disponible, la cantidad de operarios, y tu objetivo de fabricación diaria, te ayudaremos a determinar el pack de maquinaria que mejor se adapta a tu negocio, optimizando tus recursos y maximizando tu productividad."} data={array} gif={true} rows="3" />
       <FormTaller />
       <Footer />
