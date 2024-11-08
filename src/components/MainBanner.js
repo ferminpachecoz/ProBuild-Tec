@@ -16,21 +16,21 @@ export default function MainBanner(){
 
   let array=[
     {
-      imgDesktop: "/images/banners/banner1-desktop.jpeg",
+      imgDesktop: "/images/banners/banner1-desktop.webp",
       imgMovil: "/images/banners/banner1-movil.webp",
       title: "¿Estás listo para optimizar tu producción?",
       subtitle: "Arma tu taller ideal en solo unos clics. Descubre qué pack de maquinaria se adapta mejor a tus necesidades ingresando los detalles de tu taller",
       callToAction: "Arma tu Taller Ahora"
     },
     {
-      imgDesktop: "/images/banners/banner2-desktop.jpeg",
+      imgDesktop: "/images/banners/banner2-desktop.webp",
       imgMovil: "/images/banners/banner2-movil.webp",
       title: "No solo vendemos máquinas, somos tu socio en el crecimiento",
       subtitle: "Ofrecemos consultoría integral y asesoramiento personalizado para que optimices cada etapa de tu producción. Desde proveedores hasta automatización, te acompañamos en todo el proceso.",
       callToAction: "Descubre Nuestra Consultoría"
     },
     {
-      imgDesktop: "/images/banners/banner3-desktop.jpeg",
+      imgDesktop: "/images/banners/banner3-desktop.webp",
       imgMovil: "/images/banners/banner3-movil.webp",
       title: "Tecnología de Vanguardia para tu Taller",
       subtitle: "Descubre nuestros packs de maquinaria diseñados para potenciar la producción de aberturas de PVC. Innovación y eficiencia en cada solución.",
