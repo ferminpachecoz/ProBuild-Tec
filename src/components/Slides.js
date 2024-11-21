@@ -1,7 +1,8 @@
 import React from 'react';
 import "./Slides.scss";
+import { Link } from 'react-router-dom';
 
-export default function Slides({imageDesktop, imageMovil, title, subtitle, callToAction, mobileBg}) {
+export default function Slides({imageDesktop, imageMovil, title, subtitle, callToAction, mobileBg, link}) {
   return (
     <div className='slides row' style={{backgroundImage: `url(${mobileBg?imageMovil:imageDesktop})`}}>
       <div className='shadow'>
@@ -9,9 +10,9 @@ export default function Slides({imageDesktop, imageMovil, title, subtitle, callT
           <h1 style={{fontWeight: 700, textTransform: "capitalize", color: "rgb(240,240,240)"}}>{title}</h1>
           <h2 style={{marginBottom: "1em", color: "rgb(240,240,240)"}}>{subtitle}</h2>
           <div className='center'>
-            <button>
+            <Link to={link}>
               <p>{callToAction}</p> 
-            </button>
+            </Link>
           </div>
         </div>
       </div>

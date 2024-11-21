@@ -21,7 +21,7 @@ export default function LineaInfo({production, description, space, operators, im
           </span>
           <span className='contenedor'>
             <i className="bi bi-check-lg"></i>
-            <p>{production} marcos x dia</p>
+            <p>{production} ventanas x dia</p>
           </span>
           <span className='contenedor'>
             <i className="bi bi-check-lg"></i>

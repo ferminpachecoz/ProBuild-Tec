@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Pro Build",
+  "name": "Soluciones de Alta Calidad",
   "icons": [
     {
       "src": "favicon.ico",
@@ -9,11 +9,11 @@
     },
     {
       "src": "logo PNG.png",
-      "type": "image/png",
+      "type": "android-chrome-192x192.png",
       "sizes": "192x192"
     },
     {
-      "src": "logo PNG.png",
+      "src": "android-chrome-512x512.png",
       "type": "image/png",
       "sizes": "512x512"
     }

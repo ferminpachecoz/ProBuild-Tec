@@ -43,6 +43,12 @@ export default function FormTaller() {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Iniciar el proceso de "cálculo"
+    const { produccion, superficie, operadores } = formValues;
+    const { nombre, apellido, empresa, telefono, email } = formValues;
+    if (!nombre || !apellido || !email || !empresa || !telefono || !produccion || !superficie || !operadores) {
+      alert("Por favor, completa todos los campos.");
+      return;
+    }
     setFormVisible(false); // Oculta el formulario
     setLoading(true);  // Muestra el loader
     setTimeout(()=>{
@@ -51,8 +57,6 @@ export default function FormTaller() {
 
     setTimeout(() => {
       // Extraer los valores del formulario
-      const { produccion, superficie, operadores } = formValues;
-      const { nombre, apellido, empresa, telefono } = formValues;
       sendEmail(nombre, apellido, empresa, telefono);
       // Convertir valores a números
       const prodValue = parseInt(produccion);
@@ -61,14 +65,12 @@ export default function FormTaller() {
   
       // Buscar el mejor paquete en la base de datos
       const recommendedPackage = db2.find((pack) => {
-        // Convertir los rangos de producción y operadores a números para poder comparar
-        const [prodMin, prodMax] = pack.production.split('-').map(Number);
-        const [opMin, opMax] = pack.operatorsRequired.split('-').map(Number);
-  
+        const [opMin, opMax] = pack.operatorsRequired.split('-').map(Number); // Dividir rango de operadores
+    
         return (
-          superficieValue >= pack.spaceRequired &&
-          operadoresValue >= opMin && operadoresValue <= opMax &&
-          prodValue >= prodMin && prodValue <= prodMax
+          superficieValue >= pack.spaceRequired && // Verifica la superficie
+          operadoresValue >= opMin && operadoresValue <= opMax && // Verifica el rango de operadores
+          Math.abs(prodValue - pack.production) <= 20 // Verifica si la producción está dentro del margen de 20 unidades
         );
       });
 
@@ -129,13 +131,14 @@ export default function FormTaller() {
       <div className='wrapper'>
         <CardPaquete 
         id={recommendedPackage.id} 
-        image={"https://hostiko.com/layout91/wp-content/uploads/2024/05/vps-img1.png"} 
+        image={recommendedPackage.image} 
         title={recommendedPackage.name} 
         description={recommendedPackage.description} 
         production={recommendedPackage.production} 
         operators={recommendedPackage.operatorsRequired} 
         space={recommendedPackage.spaceRequired} 
-        width={"50%"}
+        width={"responsive-width"}
+        short_description={recommendedPackage.short_description}
         />
       </div>
       }

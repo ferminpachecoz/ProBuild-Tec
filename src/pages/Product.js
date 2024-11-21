@@ -9,7 +9,6 @@ import LineaTitle from '../components/LineaTitle.js';
 export default function Product() {
   const { id } = useParams();
   let product = array.find(item=>item.id==id)
-  console.log(product);
   return (
     <>
       <Header style={"white"} />

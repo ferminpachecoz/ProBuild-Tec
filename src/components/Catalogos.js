@@ -25,7 +25,7 @@ export default function Catalogos() {
       <div className='row justify-content-evenly contenedor row-cols-lg-3 row-cols-1'>
         {
           array.map((item,index)=>(
-            <div className='wrapper' key={index}>
+            <div className='wrapper' key={index} data-aos="fade-down" data-aos-anchor-placement="center-bottom">
               <div className='card'>
                 <div className='img-container'>
                   <img loading='lazy' src={item.img} alt={"Image about "+item.name} />

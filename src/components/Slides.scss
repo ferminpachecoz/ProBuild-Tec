@@ -6,7 +6,7 @@
   background-size: cover;
   background-position: center;
   .shadow{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     .text{
       position: absolute;
@@ -16,14 +16,13 @@
       flex-direction: column;
       justify-content: center;
       padding: 10em 2em 2em 5em;
-      button{
+      a{
         display: flex;
         align-items: center;
         width: fit-content;
         border: none;
         font-size: 18px;
         font-weight: 600;
-        /* background-color: var(--accent-secondary); */
         background-color: white;
         padding: 1.2em 2em;
         border-radius: 15px;
@@ -55,7 +54,7 @@
         .center{
           display: flex;
           justify-content: center;
-          button{
+          a{
             padding: 14px 20px;
             p{
               font-size: 16px;

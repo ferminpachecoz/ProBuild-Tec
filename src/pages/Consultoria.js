@@ -5,6 +5,7 @@ import ConsultoriaIntegral from '../components/ConsultoriaIntegral';
 import LineaTitle from '../components/LineaTitle';
 import BannerAbout from '../components/BannerAbout';
 import Servicios from '../components/Servicios';
+import Contacto from '../components/Contacto';
 
 export default function Consultoria() {
   let data=[
@@ -45,20 +46,29 @@ export default function Consultoria() {
       description: "Proporcionamos consultoría en marketing digital y capacitaciones para tu equipo de ventas, optimizando tu estrategia comercial para aumentar tu visibilidad y atraer más clientes."
     },
   ]
+  function handleRedirect (){
+    const phoneNumber = "5491123269142";  // Número de teléfono en formato internacional
+    const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text`;
+    
+    window.location.href = url;  // Redirige a WhatsApp
+  }
   return (
     <>
+      <div className="wpp-button" onClick={handleRedirect}>
+        <i className="bi bi-whatsapp"></i>
+      </div>
       <Header />
       <LineaTitle title={"Consultoria"} subtitle={" "} />
       <BannerAbout 
         title={"Consultoría Integral Pro Build"} 
-        text={"En Pro Build, nuestra consultoría está diseñada para impulsar el éxito de los fabricantes de aberturas de PVC y maximizar el rendimiento de sus talleres. Desde la primera consulta, trabajamos estrechamente para comprender a fondo los objetivos y necesidades de cada cliente."}
+        text={"En Pro Build, nuestra consultoría está diseñada para impulsar el éxito de los fabricantes de aberturas de PVC y maximizar el rendimiento de sus plantas de producción. Desde la primera consulta, trabajamos estrechamente para comprender a fondo los objetivos y necesidades de cada cliente."}
         image={"/images/consultoria/Logo fondo negro PNG.png"}
         col1={"col-lg-7"}
         col2={"col-lg-5"}
         size={"cover"}
       />
       <BannerAbout 
-        title={"Desarrollo y optimización de talleres"} 
+        title={"Desarrollo y optimización de producción"} 
         text={"Acompañamos a nuestros clientes en cada fase del desarrollo, abarcando el diseño de layout de talleres, procesos de fabricación y equipamiento, con el objetivo de lograr la máxima eficiencia y productividad en la fabricación de aberturas y obtener el mejor precio del mercado."}
         image={"/images/consultoria/Consultoria.png"}
         col1={"col-lg-6"}
@@ -69,9 +79,10 @@ export default function Consultoria() {
         title={"Instalación y capacitación"} 
         text={"Gracias a nuestra alianza estratégica con Yilmaz Machine, garantizamos la instalación y capacitación en el montaje de maquinaria, asegurando que su taller esté completamente operativo y a la vanguardia tecnológica."}
         image={"/images/optimizacion.webp"}
-        col1={"col-lg-6"}
-        col2={"col-lg-6"}
+        col1={"col-lg-7"}
+        col2={"col-lg-5"}
       />
+      <Contacto />
       <Servicios 
         title={"Suscripción Premium Pro Build"}
         subtitle={"Para quienes buscan un acompañamiento integral, ofrecemos un servicio exclusivo que incluye"}

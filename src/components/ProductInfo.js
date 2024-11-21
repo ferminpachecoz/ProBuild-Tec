@@ -4,7 +4,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './ProductInfo.scss'; // Archivo CSS para el estilo
 export default function ProductInfo({product}) {
-  console.log(product);
   
   /* function handleRedirect (){
     const phoneNumber = "5491123269142";  // Número de teléfono en formato internacional

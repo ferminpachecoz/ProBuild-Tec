@@ -14,7 +14,7 @@ export default function CardServicio({image, title, description, gif}) {
     setImageSrc(`${image}.png`);
   };
   return (
-    <div className='card-servicio'>
+    <div className='card-servicio' data-aos="fade-down" data-aos-anchor-placement="center-bottom">
       <div className='sub-container'>
         <div className='img-container'>
           {gif?

@@ -8,7 +8,7 @@ export default function CardPaquete({id, image, title, short_description, produc
   let linkPack = b.join("-")
   
   return (
-    <div className='paquete'>
+    <div className='paquete' data-aos="fade-down" data-aos-anchor-placement="top-bottom">
       <div className='img-container'>
         <img src={image} loading='lazy' alt={short_description} className={`${width}`} />
       </div>
@@ -17,7 +17,7 @@ export default function CardPaquete({id, image, title, short_description, produc
       <div className='requerido'>
         <span className='d-flex align-items-center'>
           <i className="bi bi-check-lg"></i>
-          <p>{production} <strong>marcos</strong> x dia</p>
+          <p>{production} <strong>ventanas</strong> x dia</p>
         </span>
         <span className='d-flex align-items-center'>
           <i className="bi bi-check-lg"></i>

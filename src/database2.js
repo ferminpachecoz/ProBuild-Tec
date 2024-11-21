@@ -31,7 +31,7 @@ let db =[
     id: 3,
     name: "pack avanzado",
     spaceRequired: 660,
-    operatorsRequired: "9",
+    operatorsRequired: "9-9",
     production: "110",
     description: "Maximiza tu producción con tecnología avanzada y mayor automatización. Este pack está diseñado para fabricantes que buscan un volumen de fabricación superior, con una capacidad de hasta 110 ventanas por día en jornadas de 8 horas. Ideal para quienes trabajan con desarrolladoras, proyectos grandes o distribuidores, este pack incluye centros de corte y mecanizado de alta tecnología, permitiendo automatizar la producción con sistemas de etiquetado de ventanas y software avanzado. El pack avanzado es perfecto para quienes necesitan cubrir una alta demanda con la mejor tecnología disponible.",
     short_description: "Automatiza tu producción y aumenta la capacidad a 110 ventanas diarias. Equipado con tecnología avanzada y sistemas de etiquetado.",
@@ -50,7 +50,7 @@ let db =[
     description: "La máxima tecnología para los fabricantes más exigentes. Este pack es la solución definitiva para quienes buscan la última tecnología en la fabricación de aberturas de PVC. Con una capacidad de hasta 154 ventanas por día, el Pack Elite está diseñado para aquellos fabricantes que demandan alta productividad con una inversión en maquinaria de punta. Equipado con las máquinas más avanzadas del mercado, permite automatizar por completo el proceso productivo, logrando niveles excepcionales de eficiencia y precisión. Ideal para empresas que buscan diferenciarse con calidad y rendimiento superior.",
     short_description: "Máxima tecnología para alta producción. Este pack automatiza completamente tu taller, permitiéndote fabricar 154 ventanas diarias.",
     machines: ["PIM 6509","SM 1000","MEM 128","SDT 280","CCL 1660","NSM 353","SKN 301","CK 412"],
-    additionals: ["VP 1000","HP 1000","GPT 1000", "PT 1000","WB 4000"],
+    additionals: ["VP 1000","HP 1000","GPT 1000","WB 4000"],
     image: "/images/Pack Elite PNG.webp",
     aireComprimido: "500 lT. / min 6-8 Bar",
     electricidadRequerida: 32

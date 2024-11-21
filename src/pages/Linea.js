@@ -12,9 +12,7 @@ export default function Linea() {
   let a = title.split("-")
   let b = a.join(" ")
   let linea = array.find(item=>item.name==b)
-  console.log(b);
   
-  console.log(linea);
   
   return (
     <>
